@@ -1,0 +1,1553 @@
+sample_name,uploader,upload_date,runtime_seconds,overall_job_status,num_input_files,total_reads,nonhost_reads,nonhost_reads_percent,ercc_reads,subsampled_fraction,quality_control,compression_ratio,tissue_type,nucleotide_type,location,host_genome,notes,sample_diagnosis
+CHRF0094iSeq_S1_L001,Madeline,2018-07-08 11:43:35 -0700,1199.0,COMPLETE,2,2341592,46514,1.986,1051218,1.0,44.055,1.88,,,,Human,,
+CHRF_RNA_0000_S97,,2018-03-25 17:51:13 -0700,2128.0,COMPLETE,2,135087088,156310,0.116,130150782,1.0,41.349,4.68,,RNA,,Human,"- Notes: DeRisi_water
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. However a lot of yeast here with z score of 4.2.",
+CHRF_RNA_0001_S1,,2018-03-25 17:51:14 -0700,1997.0,COMPLETE,2,102302082,216946,0.212,33395452,1.0,31.951,2.18,,RNA,,Human,"Parvovirus B19, Antigen for Strept. Pneumonia, 0 month old, 250 WBCs, high protein, May 2017, discharged after 15 days.
+- Serotype: 8
+- CT value from qPCR: 32.88
+- mNGS result summary (RNA-Seq): Spn has the high reads and z score of 4.5 - so likely to be a pathogen of significance.
+- Admission date: 15-May-17
+- Birth date: 13-May-17
+- Age (months): 0
+- TLC (mm3): 250
+- Polymorph %: 80
+- Sugar (mg/dl): 32
+- Protein (mg/dl): 300
+- Volume  sent (ul): 500
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 15
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 1",Meningitis
+CHRF_RNA_0002_S2,,2018-03-25 17:51:14 -0700,3579.0,COMPLETE,2,141979356,2837444,1.998,14875054,0.70486,77.874,1.41,,RNA,,Human,"Streptococcus pneumoniae
+- Serotype: 2
+- CT value from qPCR: 19.16
+- mNGS result summary (RNA-Seq): With z score of 99 and highest reads, Spn is definitely the most probable pathogen. 
+- Admission date: 27-Feb-17
+- Birth date: 24-Nov-16
+- Age (months): 3
+- TLC (mm3): 80
+- Polymorph %: 60
+- Sugar (mg/dl): 46
+- Protein (mg/dl): 300
+- Volume  sent (ul): 260
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 9",Meningitis
+CHRF_RNA_0003_S3,,2018-03-25 17:51:14 -0700,1495.0,COMPLETE,2,56010100,88082,0.157,17328160,1.0,32.473,1.44,,RNA,,Human,"low TTV
+- Serotype: 19A
+- CT value from qPCR: 16.28
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn does have the highest reads here but  zscore of 1.
+- Admission date: 15-Jan-15
+- Birth date: 24-Jan-09
+- Age (months): 71
+- TLC (mm3): 9600
+- Polymorph %: 90
+- Sugar (mg/dl): 24
+- Protein (mg/dl): 220
+- Volume  sent (ul): 570
+- Outcome: Discharged
+- Provisional Diagnosis 1: ICSOL/ Intracranial space occupying lessions
+- Hospital duration: 14
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 17",Meningitis
+CHRF_RNA_0004_S4,,2018-03-25 17:51:14 -0700,1666.0,COMPLETE,2,60813922,237838,0.391,45038786,1.0,54.671,2.43,,RNA,,Human,"- Serotype: NTD
+- CT value from qPCR: 35.51
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 1.1
+- Admission date: 6-Sep-17
+- Birth date: 6-Aug-12
+- Age (months): 61
+- TLC (mm3): 220
+- Polymorph %: 10
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 100
+- Volume  sent (ul): 250
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 14
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 25",Meningitis
+CHRF_RNA_0005_S5,,2018-03-25 17:51:14 -0700,1647.0,COMPLETE,2,49785764,100862,0.203,23464986,1.0,51.73,1.74,,RNA,,Human,"Enterobacter, 0 month old, CSF june 2016, 3500 WBC. Discharged after 23 days.
+- mNGS result summary (RNA-Seq): With z score of 99 and highest reads, no doubt that this is Enterobacteria, probably enterobacter hormaechei/cloacae - need to learn more about these to understand the differences/similarities.
+- Admission date: 23-May-16
+- Birth date: 10-May-16
+- Age (months): 0
+- TLC (mm3): 3500
+- Polymorph %: 90
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 700
+- Volume  sent (ul): 550
+- Outcome: Discharged
+- Provisional Diagnosis 1: Severe perinatal asphyxia/perinatal asphyxia
+- Hospital duration: 23
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 1
+- Position: 33",Meningitis
+CHRF_RNA_0006_S6,,2018-03-25 17:51:14 -0700,1661.0,COMPLETE,2,80267448,145860,0.182,77153088,1.0,44.582,3.31,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 20-Sep-14
+- Birth date: 2-Apr-14
+- Age (months): 5
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 52
+- Protein (mg/dl): 15
+- Volume  sent (ul): 550
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 41",Acute respiratory infection (ARI)/Respiratory tract infection (RTI)
+CHRF_RNA_0007_S7,,2018-03-25 17:51:14 -0700,1507.0,COMPLETE,2,52481998,126918,0.242,49759666,1.0,34.768,2.92,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 28-Jan-15
+- Age (months): 8
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 70
+- Protein (mg/dl): 20
+- Volume  sent (ul): 760
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 49",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0008_S8,,2018-03-25 17:51:14 -0700,1640.0,COMPLETE,2,56664264,127858,0.226,47826772,1.0,49.289,3.03,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 10-Feb-18
+- Birth date: 25-Oct-16
+- Age (months): 15
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 62
+- Protein (mg/dl): 15
+- Volume  sent (ul): 1000
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 57",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0009_S9,,2018-03-25 17:51:14 -0700,1503.0,COMPLETE,2,42981288,122776,0.286,39365830,1.0,48.547,2.7,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. However a lot of yeast here with z score of 4.2.
+- Admission date: 19-Feb-18
+- Birth date: 26-Nov-16
+- Age (months): 14
+- TLC (mm3): 4
+- Polymorph %: 0
+- Sugar (mg/dl): 80
+- Protein (mg/dl): 25
+- Volume  sent (ul): 640
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 5
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 65",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0010_S10,,2018-03-25 17:51:14 -0700,1646.0,COMPLETE,2,61327650,70042,0.114,22230004,1.0,39.5,1.78,Cerebrospinal fluid,RNA,Bangladesh,Human,"Enterovirus B / Echovirus infection.  Mystery Case. 7 month old. Jan 2018,  340 WBCs, high sugar, normal protein, discharged after 6 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Enterovirus with z score of 99 and 9.3 rpm and 467 reads stand out here. 
+- Admission date: 3-Jan-18
+- Birth date: 9-May-17
+- Age (months): 7
+- TLC (mm3): 314
+- Polymorph %: 80
+- Sugar (mg/dl): 54
+- Protein (mg/dl): 40
+- Volume  sent (ul): 540
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 6
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 73",Meningitis
+CHRF_RNA_0011_S11,,2018-03-25 17:51:14 -0700,1314.0,COMPLETE,2,60553510,25850,0.043,7677666,1.0,60.961,2.13,Cerebrospinal fluid,RNA,Bangladesh,Human,"Mumps, 18 month old. WBC 100, protein/glucose normal, discharged after 9 days in the hospital.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Mumps rubulavirus is the like pathogen here with  z score of 100. Not high reads but not unlikely for viruses. Follow up on the vaccination history of the child. Can we design PCR for mumps? This can be a positive control. 
+- Admission date: 4-Nov-17
+- Birth date: 15-Apr-16
+- Age (months): 18
+- TLC (mm3): 100
+- Polymorph %: 60
+- Sugar (mg/dl): 44
+- Protein (mg/dl): 60
+- Volume  sent (ul): 810
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 9
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 81",Meningitis
+CHRF_RNA_0012_S12,,2018-03-25 17:51:14 -0700,1658.0,COMPLETE,2,8760674,56784,0.648,3462238,1.0,62.316,1.36,Cerebrospinal fluid,RNA,Bangladesh,Human,"Chikungunya >12k reads, tetraparvovirus 1.  July 2017, During CHKV outbreak, 180 WBCs, Prot 55, Glucose 40, 86 month old. 45 days in hospital, died. (Mystery Sample)
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Chikungunya virus with z score of 99 and highest reads is the likely pathogen. Follow up on neurodevelopment of the kids. Get the sample back to Dhaka as a positive control for testing more CSF samples for Chick. 
+- Admission date: 5-Jun-17
+- Birth date: 10-Mar-10
+- Age (months): 86
+- TLC (mm3): 180
+- Polymorph %: 60
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 55
+- Volume  sent (ul): 450
+- Outcome: Died
+- Provisional Diagnosis 1: AGN/ Acute Glomerulonephritis/ APSGN
+- Hospital duration: 45
+- Drug 1: Inj. Cefuroxim
+- Box : 2
+- Position: 8",Meningoencephalitis
+CHRF_RNA_0013_S13,,2018-03-25 17:51:14 -0700,1811.0,COMPLETE,2,12772456,93332,0.731,11518604,1.0,32.979,1.57,Cerebrospinal fluid,RNA,Bangladesh,Human,"Streptococcus pneumoniae.  PCR positive and antigen positive, 4 month old, 74 WBCs, discharged after 13 days.  Neisseria very low in the sequence.
+- Serotype: 2
+- CT value from qPCR: 36
+- mNGS result summary (RNA-Seq): Spn has very high reads and z score of 99
+- Admission date: 3-Mar-17
+- Birth date: 7-Oct-16
+- Age (months): 4
+- TLC (mm3): 74
+- Polymorph %: 25
+- Sugar (mg/dl): 58
+- Protein (mg/dl): 60
+- Volume  sent (ul): 270
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 13
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 1
+- Position: 2",Meningitis
+CHRF_RNA_0014_S14,,2018-03-25 17:51:14 -0700,1301.0,COMPLETE,2,5138438,1520,0.03,47076,1.0,57.284,1.05,,RNA,,Human,"- Serotype: 10F
+- CT value from qPCR: 27.62
+- mNGS result summary (RNA-Seq): Spn has the highest reads but z score of only 3.6
+- Admission date: 24-Feb-17
+- Birth date: 24-Jul-16
+- Age (months): 7
+- TLC (mm3): 10000
+- Polymorph %: 90
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 400
+- Volume  sent (ul): 750
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 10",Meningitis
+CHRF_RNA_0015_S15,,2018-03-25 17:51:14 -0700,1954.0,COMPLETE,2,45328346,208836,0.461,42675752,1.0,50.328,2.51,Cerebrospinal fluid,RNA,Bangladesh,Human,"Primate tetraparvovirus 1,  Antigen Positive. Strept pneuomniae, PCR negative for Strept. Pneu.  78 month old, 80 WBCs, prot/glucose normal. 18 days, discharged.
+- Serotype: NTD
+- CT value from qPCR: Negative
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 0.5
+- Admission date: 12-Mar-15
+- Birth date: 20-Aug-08
+- Age (months): 78
+- TLC (mm3): 80
+- Polymorph %: 10
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 15
+- Volume  sent (ul): 600
+- Outcome: Discharged
+- Provisional Diagnosis 1: Nephrotic syndrome
+- Hospital duration: 18
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 1
+- Position: 18",Meningitis
+CHRF_RNA_0016_S16,,2018-03-25 17:51:14 -0700,1965.0,COMPLETE,2,56699154,127496,0.225,52922396,1.0,27.723,2.81,,RNA,,Human,"- Serotype: NTD
+- CT value from qPCR: Negative
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has z score of -0.1
+- Admission date: 4-Oct-17
+- Birth date: 3-Jun-17
+- Age (months): 4
+- TLC (mm3): 10
+- Polymorph %: 60
+- Sugar (mg/dl): 47
+- Protein (mg/dl): 150
+- Volume  sent (ul): 335
+- Outcome: Discharged
+- Provisional Diagnosis 1: Encephalitis
+- Hospital duration: 32
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 26",Meningitis
+CHRF_RNA_0017_S17,,2018-03-25 17:51:14 -0700,1645.0,COMPLETE,2,44873536,71250,0.159,25545366,1.0,42.22,2.04,,RNA,,Human,"132 month old.  2600 WBC.  discharged after 24 days. Debatable whether this was e.coli
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here - also E. coli is not a common infection in an 11 year old. May be a contaminant in the lab?
+- Admission date: 12-Mar-16
+- Age (months): 132
+- TLC (mm3): 2600
+- Polymorph %: 90
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 150
+- Volume  sent (ul): 400
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 24
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 34",Meningitis
+CHRF_RNA_0018_S18,,2018-03-25 17:51:14 -0700,1791.0,COMPLETE,2,47931332,84642,0.177,44741152,1.0,24.83,2.87,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 23-Sep-14
+- Birth date: 15-Sep-12
+- Age (months): 24
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 68
+- Protein (mg/dl): 15
+- Volume  sent (ul): 700
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 2
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 42",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0019_S19,,2018-03-25 17:51:14 -0700,1653.0,COMPLETE,2,9003804,46672,0.518,8476152,1.0,44.514,1.75,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. However, H. influenzae does have a high score of 9391 and z score of 3.1 with 25 rPM.
+- Admission date: 31-Jan-15
+- Birth date: 14-Jan-14
+- Age (months): 12
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 75
+- Protein (mg/dl): 20
+- Volume  sent (ul): 820
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 50",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0020_S20,,2018-03-25 17:51:14 -0700,2477.0,COMPLETE,2,75031264,545870,0.728,64841106,1.0,45.221,3.7,Cerebrospinal fluid,RNA,Bangladesh,Human,"Fusarium, atypical febrile convulsion -  6 months old, WBCs 2, normal protein, glucose. discharged after 3 days.
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. But there are high reads for fusarium which has a z score of 5.8
+- Admission date: 11-Feb-18
+- Birth date: 7-Aug-17
+- Age (months): 6
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 65
+- Protein (mg/dl): 20
+- Volume  sent (ul): 800
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 58",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0021_S21,,2018-03-25 17:51:14 -0700,1951.0,COMPLETE,2,38396862,145968,0.38,35594906,1.0,41.363,2.96,,RNA,,Human,"Relatively clean
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 27-Feb-18
+- Birth date: 28-Jun-17
+- Age (months): 8
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 65
+- Protein (mg/dl): 25
+- Volume  sent (ul): 720
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 4
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 1
+- Position: 66",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0022_S22,,2018-03-25 17:51:14 -0700,2389.0,COMPLETE,2,118348946,181994,0.154,70802894,1.0,33.92,2.94,Cerebrospinal fluid,RNA,Bangladesh,Human,"No Findings above background.  3 month old. CSH Jan 2018, 460 WBC, high protein, left against advice, after 9 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 7-Jan-18
+- Birth date: 26-Sep-17
+- Age (months): 3
+- TLC (mm3): 460
+- Polymorph %: 80
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 300
+- Volume  sent (ul): 570
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 9
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 74",Meningitis
+CHRF_RNA_0023_S23,,2018-03-25 17:51:14 -0700,2090.0,COMPLETE,2,53928028,285306,0.529,38094584,1.0,48.01,2.93,Cerebrospinal fluid,RNA,Bangladesh,Human,"No Findings.  4 month old. CSF 2017. 74 WBCs, protein high, meningitis, discharged after 8 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 18-Sep-17
+- Birth date: 26-Apr-17
+- Age (months): 4
+- TLC (mm3): 74
+- Polymorph %: 70
+- Sugar (mg/dl): 45
+- Protein (mg/dl): 100
+- Volume  sent (ul): 370
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 8
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 1",Meningitis
+CHRF_RNA_0024_S24,,2018-03-25 17:51:14 -0700,2298.0,COMPLETE,2,98585738,86354,0.088,20945142,1.0,50.226,1.57,Cerebrospinal fluid,RNA,Bangladesh,Human,"No Findings.  96 months old. CSF April 2017, WBC 460, high protein, left against advice after 8 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 20-Apr-17
+- Age (months): 96
+- TLC (mm3): 460
+- Polymorph %: 60
+- Sugar (mg/dl): 45
+- Protein (mg/dl): 200
+- Volume  sent (ul): 420
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 8
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 9",Meningitis
+CHRF_RNA_0025_S25,,2018-03-25 17:51:14 -0700,2211.0,COMPLETE,2,87017766,110194,0.127,15448776,1.0,51.245,1.33,,RNA,,Human,"- Serotype: 3
+- CT value from qPCR: 27.2
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 3.4
+- Admission date: 18-Mar-17
+- Birth date: 13-Dec-16
+- Age (months): 3
+- TLC (mm3): 52
+- Polymorph %: 10
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 200
+- Volume  sent (ul): 700
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 15
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 1
+- Position: 3",Meningitis
+CHRF_RNA_0026_S26,,2018-03-25 17:51:14 -0700,2767.0,COMPLETE,2,150000000,216484,0.144,2209684,1.0,52.561,1.2,,RNA,,Human,"Streptococcus pneumoniae, Very High
+- Serotype: 19A
+- CT value from qPCR: 19
+- mNGS result summary (RNA-Seq): With z score of 99 and highest reads, Spn is definitely the most probable pathogen. 
+- Admission date: 29-Aug-17
+- Birth date: 10-Aug-08
+- Age (months): 108
+- TLC (mm3): 700
+- Polymorph %: 90
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 300
+- Volume  sent (ul): 330
+- Outcome: Died
+- Provisional Diagnosis 1: Nephrotic syndrome
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 11",Nephrotic syndrome
+CHRF_RNA_0027_S27,,2018-03-25 17:51:14 -0700,2084.0,COMPLETE,2,93564596,93914,0.1,43933980,1.0,40.927,2.41,,RNA,,Human,"NF
+- Serotype: b
+- CT value from qPCR: 28.39
+- mNGS result summary (RNA-Seq): Spn has z score of -0.9. Co infection with Hi?? Follow up with Latex and PCR and vaccination history.
+- Admission date: 26-Sep-17
+- Birth date: 5-Aug-17
+- Age (months): 1
+- TLC (mm3): 1300
+- Polymorph %: 80
+- Sugar (mg/dl): 25
+- Protein (mg/dl): 250
+- Volume  sent (ul): 255
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 15
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 19",Meningitis
+CHRF_RNA_0028_S28,,2018-03-25 17:51:14 -0700,1800.0,COMPLETE,2,39764866,166378,0.418,37251668,1.0,50.876,2.97,,RNA,,Human,"NF
+- Serotype: 15B/C
+- CT value from qPCR: 33.18
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn with z score of  0.3 definitely does not stand out. 
+- Admission date: 28-Oct-17
+- Birth date: 7-Mar-13
+- Age (months): 55
+- TLC (mm3): 28
+- Polymorph %: 30
+- Sugar (mg/dl): 47
+- Protein (mg/dl): 100
+- Volume  sent (ul): 300
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 8
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 27",Meningitis
+CHRF_RNA_0029_S29,,2018-03-25 17:51:14 -0700,2103.0,COMPLETE,2,54869610,373468,0.681,46651102,1.0,50.207,3.11,Cerebrospinal fluid,RNA,Bangladesh,Human,"Elizabethkingia, 0 month old, CSF collected 2016. 280WBCs, left against advice.  Culture Positive Elizabethkingia
+- mNGS result summary (RNA-Seq): With z score of 99 and highest reads, no doubt that this is Elizabethkingia (anohpeles? miricola? - need to do some bioinformatic analyses to understand this more) 
+- Admission date: 28-Dec-15
+- Birth date: 23-Dec-15
+- Age (months): 0
+- TLC (mm3): 280
+- Polymorph %: 85
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 300
+- Volume  sent (ul): 430
+- Outcome: DORB
+- Provisional Diagnosis 1: Severe perinatal asphyxia/perinatal asphyxia
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 1
+- Position: 35",Severe perinatal asphyxia/perinatal asphyxia
+CHRF_RNA_0030_S30,,2018-03-25 17:51:14 -0700,2213.0,COMPLETE,2,128845460,113374,0.088,120459392,1.0,23.779,4.81,,RNA,,Human,"NF
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 29-Sep-14
+- Birth date: 25-Jul-13
+- Age (months): 14
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 80
+- Protein (mg/dl): 15
+- Volume  sent (ul): 830
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 43",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0031_S31,,2018-03-25 17:51:14 -0700,2086.0,COMPLETE,2,65032886,190336,0.293,62205370,1.0,52.522,4.03,,RNA,,Human,"NF
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 2-Feb-15
+- Birth date: 18-Apr-14
+- Age (months): 9
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 108
+- Protein (mg/dl): 15
+- Volume  sent (ul): 480
+- Outcome: Discharged
+- Provisional Diagnosis 1: Down's syndrome
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 51",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0032_S32,,2018-03-25 17:51:14 -0700,1787.0,COMPLETE,2,52942812,94000,0.178,50417636,1.0,38.457,2.84,Cerebrospinal fluid,RNA,Bangladesh,Human,"Primate tetraparvovirus 1,  atypical febrile convulsion. WBC 4, prot, glucose normal. 3 days, discharged.
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Tetraparvovirus has a z score of 5.8 and 10.1 rpm with a total of 281 reads. Not sure what is going on. This child had 4 WBC. Perhaps viral meningitis? Normal protein and glucose… 
+- Admission date: 14-Feb-18
+- Birth date: 6-Aug-17
+- Age (months): 6
+- TLC (mm3): 4
+- Polymorph %: 0
+- Sugar (mg/dl): 60
+- Protein (mg/dl): 20
+- Volume  sent (ul): 750
+- Outcome: Discharged
+- Provisional Diagnosis 1: Pseudotumor cerebri
+- Hospital duration: 3
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 1
+- Position: 59",Pseudotumor cerebri
+CHRF_RNA_0033_S33,,2018-03-25 17:51:14 -0700,1789.0,COMPLETE,2,50925620,68302,0.134,45749064,1.0,21.794,4.11,,RNA,,Human,"NF
+- Notes: water - W/B-07,15
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Volume  sent (ul): 570
+- Box : 1
+- Position: 67",
+CHRF_RNA_0034_S34,,2018-03-25 17:51:14 -0700,1945.0,COMPLETE,2,60169132,112136,0.186,13310622,1.0,32.933,1.73,Cerebrospinal fluid,RNA,Bangladesh,Human,"No Findings.  23 Months old, Jan 2018, WBC 70, high protein, child discharged after 11 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 21-Jan-18
+- Birth date: 2-Feb-16
+- Age (months): 23
+- TLC (mm3): 70
+- Polymorph %: 70
+- Sugar (mg/dl): 43
+- Protein (mg/dl): 150
+- Volume  sent (ul): 1000
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 11
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 75",Meningitis
+CHRF_RNA_0035_S35,,2018-03-25 17:51:14 -0700,2068.0,COMPLETE,2,96343858,16208,0.017,1643200,1.0,45.411,1.27,Cerebrospinal fluid,RNA,Bangladesh,Human,"Mystery Case. 21 month old.  Low level HHV6. Dec 2017.  600 WBCs, child died. 56 days in hospital.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): human herpes virus 6! Has also been associated with stroke. Follow up with PCR if possible. 
+- Admission date: 16-Aug-17
+- Birth date: 24-Oct-15
+- Age (months): 21
+- TLC (mm3): 600
+- Polymorph %: 90
+- Sugar (mg/dl): 50
+- Protein (mg/dl): 700
+- Volume  sent (ul): 770
+- Outcome: Died
+- Provisional Diagnosis 1: Acute stroke syndrome
+- Hospital duration: 56
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 2",Acute stroke syndrome
+CHRF_RNA_0036_S36,,2018-03-25 17:51:14 -0700,2197.0,COMPLETE,2,72872708,62864,0.086,8675260,1.0,56.772,1.33,Cerebrospinal fluid,RNA,Bangladesh,Human,"2 reads to Mumps, otherwise all background. 156 Months. April 2017. 1500 WBC, normal glucose, high protein. Left against advice, 10 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): There are 2 reads for mumps virus, z score 100. I would call it mumps cause it has no business being there! - should follow up on vaccination history.
+- Admission date: 22-Apr-17
+- Birth date: 5-Apr-04
+- Age (months): 156
+- TLC (mm3): 1500
+- Polymorph %: 60
+- Sugar (mg/dl): 45
+- Protein (mg/dl): 160
+- Volume  sent (ul): 570
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 10
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 10",Meningitis
+CHRF_RNA_0037_S37,,2018-03-25 17:51:14 -0700,2078.0,COMPLETE,2,95449142,9212,0.01,516,1.0,54.785,1.16,,RNA,,Human,"- Serotype: 14
+- CT value from qPCR: 28.71
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 0.2
+- Admission date: 15-Feb-17
+- Age (months): 60
+- TLC (mm3): 5000
+- Polymorph %: 90
+- Sugar (mg/dl): 74
+- Protein (mg/dl): 250
+- Volume  sent (ul): 440
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningoencephalitis
+- Hospital duration: 15
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 4",Meningitis
+CHRF_RNA_0038_S38,,2018-03-25 17:51:14 -0700,2407.0,COMPLETE,2,131599198,57492,0.044,3102744,1.0,49.157,1.26,,RNA,,Human,"- Serotype: 23B
+- CT value from qPCR: 29.65
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 0.1
+- Admission date: 19-Mar-16
+- Birth date: 13-Aug-09
+- Age (months): 79
+- TLC (mm3): 4800
+- Polymorph %: 80
+- Sugar (mg/dl): 18
+- Protein (mg/dl): 300
+- Volume  sent (ul): 280
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 10
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 12",Meningitis
+CHRF_RNA_0039_S39,,2018-03-25 17:51:14 -0700,2072.0,COMPLETE,2,88964960,47550,0.053,12434208,1.0,37.712,1.36,,RNA,,Human,"- Serotype: NTD
+- CT value from qPCR: 34.1
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of -0.8
+- Admission date: 3-Sep-16
+- Birth date: 28-Apr-16
+- Age (months): 4
+- TLC (mm3): 950
+- Polymorph %: 85
+- Sugar (mg/dl): 35
+- Protein (mg/dl): 70
+- Volume  sent (ul): 500
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 9
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 20",Meningitis
+CHRF_RNA_0040_S40,,2018-03-25 17:51:14 -0700,2189.0,COMPLETE,2,85263302,282996,0.332,74509638,1.0,25.434,3.72,,RNA,,Human,"- Serotype: 35B
+- CT value from qPCR: 36
+- mNGS result summary (RNA-Seq): Streptococcus does have high reads with z score of 3.2, so above background. But would I pick it up had I not known?
+- Admission date: 14-Dec-17
+- Birth date: 2-Mar-17
+- Age (months): 9
+- TLC (mm3): 280
+- Polymorph %: 15
+- Sugar (mg/dl): 70
+- Protein (mg/dl): 160
+- Volume  sent (ul): 310
+- Outcome: Discharged
+- Provisional Diagnosis 1: Severe pneumonia
+- Hospital duration: 12
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 28",Pneumonia/bronchopneumonia
+CHRF_RNA_0041_S41,,2018-03-25 17:51:14 -0700,2113.0,COMPLETE,2,125053116,104932,0.084,101372810,1.0,40.386,4.4,Cerebrospinal fluid,RNA,Bangladesh,Human,"Klebsiella, 6 months old born 2012, culture positive for Klebsiella, 250WBCs, discharged after 76 days
+- mNGS result summary (RNA-Seq): Klebsiella with a z score of 9.9 definitely stands out, but wondering why nr is -0.6.
+- Admission date: 12-Sep-12
+- Birth date: 28-Feb-12
+- Age (months): 6
+- TLC (mm3): 250
+- Polymorph %: 50
+- Sugar (mg/dl): 12
+- Protein (mg/dl): 300
+- Volume  sent (ul): 750
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 76
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 36",Hydrocephalus
+CHRF_RNA_0042_S42,,2018-03-25 17:51:14 -0700,1844.0,COMPLETE,2,56269302,88386,0.157,53806038,1.0,38.903,3.16,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 10-Oct-14
+- Birth date: 6-Oct-14
+- Age (months): 0
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 20
+- Volume  sent (ul): 260
+- Outcome: Discharged
+- Provisional Diagnosis 1: Severe perinatal asphyxia/perinatal asphyxia
+- Hospital duration: 4
+- Drug 1: Inj. Cefpodoxime
+- Box : 1
+- Position: 44",Severe perinatal asphyxia/perinatal asphyxia
+CHRF_RNA_0043_S43,,2018-03-25 17:51:15 -0700,2192.0,COMPLETE,2,58224438,311660,0.535,53771664,1.0,58.254,3.76,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 5-Feb-15
+- Birth date: 1-Sep-14
+- Age (months): 5
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 72
+- Protein (mg/dl): 20
+- Volume  sent (ul): 280
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 2
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 52",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0044_S44,,2018-03-25 17:51:15 -0700,1979.0,COMPLETE,2,74679170,126652,0.17,70394724,1.0,40.655,3.83,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 14-Feb-18
+- Birth date: 11-Nov-15
+- Age (months): 27
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 68
+- Protein (mg/dl): 20
+- Volume  sent (ul): 560
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 60",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0045_S45,,2018-03-25 17:51:15 -0700,1692.0,COMPLETE,2,50455298,80706,0.16,48657850,1.0,40.975,3.1,,RNA,,Human,"- Notes: water - W/B-08,15
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Volume  sent (ul): 920
+- Box : 1
+- Position: 68",
+CHRF_RNA_0046_S46,,2018-03-25 17:51:15 -0700,1984.0,COMPLETE,2,42195836,158576,0.376,25483100,1.0,50.858,2.73,Cerebrospinal fluid,RNA,Bangladesh,Human,"Neisseria meningitidis 10 month old, 160 WBC, high-ish protein, left at 4 days against advice. Jan 2018
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 25-Jan-18
+- Birth date: 27-Nov-17
+- Age (months): 1
+- TLC (mm3): 160
+- Polymorph %: 80
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 70
+- Volume  sent (ul): 510
+- Outcome: DORB
+- Provisional Diagnosis 1: Pneumonia/bronchopneumonia
+- Hospital duration: 4
+- Drug 1: Inj. Ampicillin
+- Box : 1
+- Position: 76",Pneumonia/bronchopneumonia
+CHRF_RNA_0047_S47,,2018-03-25 17:51:15 -0700,1842.0,COMPLETE,2,57593626,54800,0.095,6349378,1.0,48.08,2.33,,RNA,,Human,"- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 4-Sep-17
+- Birth date: 8-Apr-16
+- Age (months): 16
+- TLC (mm3): 2600
+- Polymorph %: 90
+- Sugar (mg/dl): 35
+- Protein (mg/dl): 400
+- Volume  sent (ul): 490
+- Outcome: Died
+- Provisional Diagnosis 1: Acute respiratory infection (ARI)/Respiratory tract infection (RTI)
+- Hospital duration: 5
+- Drug 1: Inj. Amoxycillin
+- Box : 2
+- Position: 3",Meningoencephalitis
+CHRF_RNA_0048_S48,,2018-03-25 17:51:15 -0700,2103.0,COMPLETE,2,77389688,62590,0.081,58257176,1.0,74.161,23.98,Cerebrospinal fluid,RNA,Bangladesh,Human,"No findings.  2 month old. CSH June 2017, 3800 WBC. Very high protein. Discharged after 35 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 4-Jun-17
+- Age (months): 2
+- TLC (mm3): 3800
+- Polymorph %: 80
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 400
+- Volume  sent (ul): 360
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 35
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 11",Meningitis
+CHRF_RNA_0049_S49,,2018-03-25 17:51:15 -0700,1843.0,COMPLETE,2,63460278,72664,0.115,37940022,1.0,41.637,2.16,,RNA,,Human,"- Serotype: 29
+- CT value from qPCR: 26.52
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 0.6
+- Admission date: 2-Sep-17
+- Birth date: 25-Apr-09
+- Age (months): 100
+- TLC (mm3): 2000
+- Polymorph %: 80
+- Sugar (mg/dl): 30
+- Protein (mg/dl): 800
+- Volume  sent (ul): 340
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 14
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 5",Meningitis
+CHRF_RNA_0050_S50,,2018-03-25 17:51:15 -0700,1979.0,COMPLETE,2,71994986,231934,0.322,55364152,1.0,41.893,2.86,,RNA,,Human,"- Serotype: 20
+- CT value from qPCR: 31.78
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of 2.6
+- Admission date: 15-Mar-16
+- Age (months): 6
+- TLC (mm3): 140
+- Polymorph %: 70
+- Sugar (mg/dl): 65
+- Protein (mg/dl): 150
+- Volume  sent (ul): 390
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 2
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 13",Meningitis
+CHRF_RNA_0051_S51,,2018-03-25 17:51:15 -0700,2217.0,COMPLETE,2,150000000,42228,0.028,3295142,1.0,56.611,1.29,,RNA,,Human,"- Serotype: 3
+- CT value from qPCR: 21.29
+- mNGS result summary (RNA-Seq): Yes - with z score of 9.5 and 64 rpm, Spn is the likely pathogen. 
+- Admission date: 13-May-16
+- Birth date: 26-Jan-16
+- Age (months): 3
+- TLC (mm3): 6500
+- Polymorph %: 90
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 200
+- Volume  sent (ul): 600
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 12
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 21",Meningitis
+CHRF_RNA_0052_S52,,2018-03-25 17:51:15 -0700,1979.0,COMPLETE,2,70250230,212176,0.302,41572416,1.0,49.999,3.43,,RNA,,Human,"E.coli, very high level.  Culture positive for e.coli.  6k WBC, prot >600, gluc < low.  Treated successfully
+- mNGS result summary (RNA-Seq): E. coli has a lot of reads here; however the z score of only 2.2. While I know that this is culture positive for E. coli and it is easy for me to call it the pathogen here, how do we account for E. coli reads in our negative sample 0089? There ar e 8 reads from parechovirus also with z score of 100.
+- Admission date: 29-Oct-17
+- Birth date: 2-Jul-17
+- Age (months): 3
+- TLC (mm3): 6000
+- Polymorph %: 90
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 600
+- Volume  sent (ul): 220
+- Outcome: Discharged
+- Provisional Diagnosis 1: Septicaemia/sepsis
+- Hospital duration: 21
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 29",Hydrocephalus
+CHRF_RNA_0053_S53,,2018-03-25 17:51:15 -0700,1681.0,COMPLETE,2,46124002,83482,0.181,44273832,1.0,36.33,3.23,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing significant/pathogenic is obvious here. Highest score if 3282 by Kocuria palustris with z score 3.7. Kocuria is a common contaminant we see in the lab. 
+- Admission date: 19-Jul-14
+- Birth date: 14-Jul-13
+- Age (months): 12
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 44
+- Protein (mg/dl): 15
+- Volume  sent (ul): 500
+- Outcome: Discharged
+- Provisional Diagnosis 1: Urinary tract infection (UTI)
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 37",Acute gastroenteritis(AGE)/Acute watery diarrhoea (AWD)
+CHRF_RNA_0054_S54,,2018-03-25 17:51:15 -0700,2174.0,COMPLETE,2,109272300,127002,0.116,103557262,1.0,28.857,4.13,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 30-Oct-14
+- Birth date: 15-Oct-13
+- Age (months): 12
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 74
+- Protein (mg/dl): 25
+- Volume  sent (ul): 990
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 45",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0055_S55,,2018-03-25 17:51:15 -0700,2094.0,COMPLETE,2,65419488,115050,0.176,61576086,1.0,48.032,4.29,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 1-Feb-18
+- Birth date: 1-Jul-14
+- Age (months): 43
+- TLC (mm3): 4
+- Polymorph %: 0
+- Sugar (mg/dl): 70
+- Protein (mg/dl): 20
+- Volume  sent (ul): 835
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 53",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0056_S56,,2018-03-25 17:51:15 -0700,1839.0,COMPLETE,2,58958602,100272,0.17,52111098,1.0,30.899,4.64,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 16-Feb-18
+- Birth date: 29-Jul-16
+- Age (months): 18
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 75
+- Protein (mg/dl): 20
+- Volume  sent (ul): 1000
+- Outcome: Discharged
+- Provisional Diagnosis 1: Seizure disorder
+- Hospital duration: 6
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 61",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0057_S57,,2018-03-25 17:51:15 -0700,1676.0,COMPLETE,2,50024148,95218,0.19,46905102,1.0,34.818,3.58,,RNA,,Human,"- Notes: water - W/B-02,37
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Volume  sent (ul): 1000
+- Box : 1
+- Position: 69",
+CHRF_RNA_0058_S58,,2018-03-25 17:51:15 -0700,1840.0,COMPLETE,2,65072802,34314,0.053,3104784,1.0,33.137,1.2,,RNA,,Human,"Tiny amount of MTb. Unclear.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Mycobacterium tuberculosis has a z score of 29.4, but nr is -0.2; it has 6.1 rpm - not sure of the significance. Will follow up with PCR. 
+- Admission date: 16-Dec-17
+- Birth date: 25-Jul-04
+- Age (months): 160
+- TLC (mm3): 360
+- Polymorph %: 80
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 200
+- Volume  sent (ul): 360
+- Outcome: DORB
+- Provisional Diagnosis 1: ICSOL/ Intracranial space occupying lessions
+- Hospital duration: 15
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 77",ICSOL/ Intracranial space occupying lessions
+CHRF_RNA_0059_S59,,2018-03-25 17:51:15 -0700,3011.0,COMPLETE,2,85986872,1362544,1.585,38318362,1.0,70.96,3.42,Cerebrospinal fluid,RNA,Bangladesh,Human,"Stenotrophomonas sp. > 800k reads.  4 months old, 120 WBC, high protein, discharged after 28 days. 2017.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Stenotrophomonaas maltophilia with z score of 99 and highest reads >12000 rpm is the like pathogen. Acinetobacter baumannii with z score of 22 anf second highest reads al may be of significance. It woul dbe interesting to see the AMR patterns of these bacteria and relate that to outcome.
+- Admission date: 19-Aug-17
+- Birth date: 15-Apr-17
+- Age (months): 4
+- TLC (mm3): 120
+- Polymorph %: 80
+- Sugar (mg/dl): 36
+- Protein (mg/dl): 300
+- Volume  sent (ul): 280
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 28
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 4",Meningitis
+CHRF_RNA_0060_S60,,2018-03-25 17:51:15 -0700,2082.0,COMPLETE,2,81192516,193074,0.238,70471964,1.0,47.046,3.67,,RNA,,Human,"- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 3-Jun-17
+- Birth date: 3-Jan-17
+- Age (months): 4
+- TLC (mm3): 84
+- Polymorph %: 70
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 150
+- Volume  sent (ul): 540
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 11
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 2
+- Position: 12",Meningitis
+CHRF_RNA_0061_S61,,2018-03-25 17:51:15 -0700,2093.0,COMPLETE,2,102545870,74388,0.073,25325942,1.0,42.956,1.51,,RNA,,Human,"- Serotype: 15A/F
+- CT value from qPCR: 21.5
+- mNGS result summary (RNA-Seq): Spn has the highest reads with z score of 9.6
+- Admission date: 3-Apr-17
+- Birth date: 8-Nov-16
+- Age (months): 4
+- TLC (mm3): 32000
+- Polymorph %: 90
+- Sugar (mg/dl): 36
+- Protein (mg/dl): 300
+- Volume  sent (ul): 300
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 26
+- Drug 1: Inj. Ciprofloxacin
+- Box : 1
+- Position: 6",Pneumonia/bronchopneumonia
+CHRF_RNA_0062_S62,,2018-03-25 17:51:15 -0700,2385.0,COMPLETE,2,150000000,47112,0.031,4619612,1.0,37.56,1.31,,RNA,,Human,"- Serotype: 33F
+- CT value from qPCR: 23.82
+- mNGS result summary (RNA-Seq): Spn has the highest reads (rpm) and z score of 5.3 - the likely pathogen.
+- Admission date: 6-May-16
+- Birth date: 11-Jul-15
+- Age (months): 9
+- TLC (mm3): 2500
+- Polymorph %: 90
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 250
+- Volume  sent (ul): 650
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 12
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 14",Meningitis
+CHRF_RNA_0063_S63,,2018-03-25 17:51:15 -0700,2261.0,COMPLETE,2,83295482,338442,0.406,5436750,1.0,34.666,1.25,Cerebrospinal fluid,RNA,Bangladesh,Human,"Neisseria meningitidis, >220k reads, TTV, WBC 2400, July 2016, high protein, 40 month old, discharged after 9 days. Serotype B.
+- Serotype: B
+- CT value from qPCR: 33.04
+- mNGS result summary (RNA-Seq): neisseria meningitidis has the highest reads, with z score of 99 - it is defintiely the pathogen. 
+- Admission date: 22-Jul-16
+- Birth date: 19-Mar-13
+- Age (months): 40
+- TLC (mm3): 2400
+- Polymorph %: 90
+- Sugar (mg/dl): 18
+- Protein (mg/dl): 200
+- Volume  sent (ul): 500
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 9
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 22",Meningitis
+CHRF_RNA_0064_S64,,2018-03-25 17:51:15 -0700,2164.0,COMPLETE,2,71227742,308236,0.433,6063522,1.0,28.973,1.42,Cerebrospinal fluid,RNA,Bangladesh,Human,"Streptococcus pneumoniae, >160k reads. Culture Positive for Strept. pneumoniae.  24k WBC.  81 month old. Cipro treated, discharged after 12 days.  Serotype 39.
+- Serotype: 39
+- mNGS result summary (RNA-Seq): With z score of 99 and highest reads, no doubt that this is Streptococcus pneumoniae.
+- Admission date: 4-Jun-16
+- Birth date: 13-Aug-09
+- Age (months): 81
+- TLC (mm3): 24000
+- Polymorph %: 95
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 1000
+- Volume  sent (ul): 600
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningoencephalitis
+- Hospital duration: 12
+- Drug 1: Inj. Ciprofloxacin
+- Box : 1
+- Position: 30",Meningitis
+CHRF_RNA_0065_S65,,2018-03-25 17:51:15 -0700,1966.0,COMPLETE,2,44707958,182912,0.409,41350484,1.0,39.995,3.61,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing significant here; rheinheimera score of 50,899 and z score of 5.8 but not a known pathogen; ineterestingly acinetobacteria has a high score of 35203 and z score of 5.7 - however most reads come from junii and not baumannii. 
+- Admission date: 23-Jul-14
+- Birth date: 12-Nov-13
+- Age (months): 8
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 64
+- Protein (mg/dl): 20
+- Volume  sent (ul): 600
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 2
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 38",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0066_S66,,2018-03-25 17:51:15 -0700,1965.0,COMPLETE,2,57896582,95220,0.164,54678742,1.0,33.361,3.75,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 21-Nov-14
+- Birth date: 27-Jun-13
+- Age (months): 16
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 58
+- Protein (mg/dl): 25
+- Volume  sent (ul): 420
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 46",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0067_S67,,2018-03-25 17:51:15 -0700,2256.0,COMPLETE,2,66072270,158258,0.24,58759328,1.0,30.611,4.97,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 2-Feb-18
+- Birth date: 3-Oct-15
+- Age (months): 28
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 55
+- Protein (mg/dl): 20
+- Volume  sent (ul): 665
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 54",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0068_S68,,2018-03-25 17:51:15 -0700,1962.0,COMPLETE,2,58263836,81770,0.14,53534916,1.0,31.28,4.58,,RNA,,Human,"- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 16-Feb-18
+- Birth date: 16-Jun-17
+- Age (months): 8
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 72
+- Protein (mg/dl): 20
+- Volume  sent (ul): 450
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 2
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 62",Not applicable
+CHRF_RNA_0069_S69,,2018-03-25 17:51:15 -0700,1519.0,COMPLETE,2,45846480,59750,0.13,42479872,1.0,34.431,4.27,Cerebrospinal fluid,RNA,,Human,"Maybe low levels of Cryptococcus
+- Notes: water - W/B-01,01
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Volume  sent (ul): 500
+- Box : 1
+- Position: 70",
+CHRF_RNA_0070_S70,,2018-03-25 17:51:15 -0700,2160.0,COMPLETE,2,69060574,98978,0.143,5797930,1.0,40.129,1.64,Cerebrospinal fluid,RNA,Bangladesh,Human,"Bacillus cereus, 12 days old neonate, 2017, 12000 WBCs, high protein, low sugar, discharged after 15 days. Mystery Case.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Bacillus is very likely to be the causative agent here with z score of 29.2 and very high reads. There is report from Pabna, bangladesh of anthrax outbreak. There is a case report of bacillus cereus causing meningitis  in an immunocompromised woman and this child was only 0 months old. 
+- Admission date: 8-Dec-17
+- Birth date: 2-Dec-17
+- Age (months): 0
+- TLC (mm3): 12000
+- Polymorph %: 95
+- Sugar (mg/dl): 18
+- Protein (mg/dl): 500
+- Volume  sent (ul): 450
+- Outcome: Discharged
+- Provisional Diagnosis 1: Septicaemia/sepsis
+- Hospital duration: 15
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 1
+- Position: 78",Septicaemia/sepsis
+CHRF_RNA_0071_S71,,2018-03-25 17:51:15 -0700,1959.0,COMPLETE,2,58234020,85112,0.146,23316766,1.0,21.304,2.03,Cerebrospinal fluid,RNA,Bangladesh,Human,"Chikungunya virus >11k reads. Mystery Case - June 2017, 180 WBC, high protein high glucose, discharged after 6 days. 1 month old.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Chikungunya virus with z score of 99 and highest reads is the likely pathogen. Follow up on neurodevelopment of the kids. Get the sample back to Dhaka as a positive control for testing more CSF samples for Chick. 
+- Admission date: 14-Jun-17
+- Birth date: 24-Apr-17
+- Age (months): 1
+- TLC (mm3): 180
+- Polymorph %: 80
+- Sugar (mg/dl): 55
+- Protein (mg/dl): 250
+- Volume  sent (ul): 450
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 6
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 2
+- Position: 5",Meningitis
+CHRF_RNA_0072_S72,,2018-03-25 17:51:15 -0700,3149.0,COMPLETE,2,150000000,89218,0.059,31927140,1.0,35.675,1.98,Cerebrospinal fluid,RNA,Bangladesh,Human,"TTV, small amount of CMV. Reads blast true.  3 month old, 900 WBC, very high protein. discharged after 44 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 23-May-17
+- Birth date: 4-Feb-17
+- Age (months): 3
+- TLC (mm3): 900
+- Polymorph %: 60
+- Sugar (mg/dl): 24
+- Protein (mg/dl): 300
+- Volume  sent (ul): 820
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 44
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 13",Meningitis
+CHRF_RNA_0073_S73,,2018-03-25 17:51:15 -0700,2364.0,COMPLETE,2,109138694,105100,0.096,6998288,1.0,38.053,1.26,Cerebrospinal fluid,RNA,,Human,"Sparse results
+- Serotype: 1
+- CT value from qPCR: 23.36
+- mNGS result summary (RNA-Seq): Spn has the highest reads with z score of 89.7
+- Admission date: 10-Apr-17
+- Birth date: 23-Feb-17
+- Age (months): 1
+- TLC (mm3): 4000
+- Polymorph %: 95
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 700
+- Volume  sent (ul): 380
+- Outcome: Died
+- Provisional Diagnosis 1: Meningitis
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 1
+- Position: 7",Meningitis
+CHRF_RNA_0074_S74,,2018-03-25 17:51:15 -0700,2312.0,COMPLETE,2,117315916,38716,0.033,1435378,1.0,41.788,1.19,Cerebrospinal fluid,RNA,,Human,"TTV and not much else
+- Serotype: 9V
+- CT value from qPCR: 27.7
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has z score of -.3 - overall very low reads. 
+- Admission date: 26-Jun-16
+- Birth date: 25-May-09
+- Age (months): 85
+- TLC (mm3): 3000
+- Polymorph %: 85
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 350
+- Volume  sent (ul): 360
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 18
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 15",Meningitis
+CHRF_RNA_0075_S75,,2018-03-25 17:51:15 -0700,2312.0,COMPLETE,2,111766028,12132,0.011,774910,1.0,52.272,1.14,Cerebrospinal fluid,RNA,,Human,"Sparse results.
+- Serotype: 24
+- CT value from qPCR: 29.3
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn does have the highest reads here but  zscore of 0.4.
+- Admission date: 15-Feb-15
+- Age (months): 72
+- TLC (mm3): 3400
+- Polymorph %: 90
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 200
+- Volume  sent (ul): 255
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningoencephalitis
+- Hospital duration: 27
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 23",Meningoencephalitis
+CHRF_RNA_0076_S76,,2018-03-25 17:51:15 -0700,2166.0,COMPLETE,2,63375670,98018,0.155,25658770,1.0,42.917,2.3,Cerebrospinal fluid,RNA,Bangladesh,Human,"Streptococcus pneumoniae, Feb 2015 CSF. 6 month old., 860 WBC, left hospital.
+- Serotype: 10F
+- mNGS result summary (RNA-Seq): With z score of 12.3 and highest reads, no doubt that this is Streptococcus pneumoniae.
+- Admission date: 20-Feb-15
+- Birth date: 13-Aug-14
+- Age (months): 6
+- TLC (mm3): 860
+- Polymorph %: 90
+- Sugar (mg/dl): 50
+- Protein (mg/dl): 300
+- Volume  sent (ul): 350
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningitis
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 31",Meningitis
+CHRF_RNA_0077_S77,,2018-03-25 17:51:15 -0700,2163.0,COMPLETE,2,75937524,102300,0.135,66630914,1.0,14.732,4.89,Cerebrospinal fluid,RNA,,Human,"Bacillus background
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 17-Sep-14
+- Birth date: 17-Apr-14
+- Age (months): 5
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 44
+- Protein (mg/dl): 25
+- Volume  sent (ul): 550
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 39",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0078_S78,,2018-03-25 17:51:15 -0700,1947.0,COMPLETE,2,42345140,63466,0.15,39235528,1.0,22.615,3.26,Cerebrospinal fluid,RNA,,Human,"Bacillus background
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 15-Jan-15
+- Birth date: 3-Nov-13
+- Age (months): 14
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 70
+- Protein (mg/dl): 20
+- Volume  sent (ul): 450
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 47",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0079_S79,,2018-03-25 17:51:15 -0700,2160.0,COMPLETE,2,60221934,86664,0.144,52120452,1.0,34.641,3.63,Cerebrospinal fluid,RNA,,Human,"Bacillus background, low level Klebsiella pneumoniae
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 5-Feb-18
+- Birth date: 11-May-17
+- Age (months): 8
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 60
+- Protein (mg/dl): 20
+- Volume  sent (ul): 860
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 5
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 55",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0080_S80,,2018-03-25 17:51:15 -0700,2166.0,COMPLETE,2,58480150,77640,0.133,48353780,1.0,38.213,3.37,,RNA,,Human,"No Findings. Atypical Febrile Convulsion. Negative.
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 16-Feb-18
+- Birth date: 10-Dec-16
+- Age (months): 14
+- TLC (mm3): 4
+- Polymorph %: 0
+- Sugar (mg/dl): 54
+- Protein (mg/dl): 20
+- Volume  sent (ul): 760
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 63",Not applicable
+CHRF_RNA_0081_S81,,2018-03-25 17:51:15 -0700,2167.0,COMPLETE,2,64453194,38766,0.06,31709728,1.0,29.238,3.44,Cerebrospinal fluid,RNA,Bangladesh,Human,"No findings above background.  72 months old. CSF Feb 2018, WBC 1100, high protein, normal glucose, unknown outcome.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 1-Feb-18
+- Birth date: 24-Jan-12
+- Age (months): 72
+- TLC (mm3): 1100
+- Polymorph %: 40
+- Sugar (mg/dl): 25
+- Protein (mg/dl): 350
+- Volume  sent (ul): 500
+- Provisional Diagnosis 1: Meningitis
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 71",Not applicable
+CHRF_RNA_0082_S82,,2018-03-25 17:51:15 -0700,1943.0,COMPLETE,2,60637346,98414,0.162,19935498,1.0,41.8,2.04,Cerebrospinal fluid,RNA,Bangladesh,Human,"Salmonella enterica,  1st LP culture positive for Salmonella enterica,  4 month old. CSF collected 2017. WBC 90, high protein, discharged after 23 days.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Salmonella is the likely causative agent here with z score of 13.6 and high reads. This is also the second LP from a child whose first LP was culture positive for salmoenlla enterica. Need to follow up to understand serovar - both from lab aand bioinformatics. 
+- Admission date: 9-Dec-17
+- Birth date: 7-Aug-17
+- Age (months): 4
+- TLC (mm3): 90
+- Polymorph %: 70
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 600
+- Volume  sent (ul): 470
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 23
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 79",Meningitis
+CHRF_RNA_0083_S83,,2018-03-25 17:51:15 -0700,2597.0,COMPLETE,2,139233556,48796,0.035,286176,1.0,62.941,4.32,Cerebrospinal fluid,RNA,Bangladesh,Human,"Tetraparvovirus 1.  Mystery Case.  7 month old, CSF Aug 2017, 5000 WBC, protein very high, low glucose, child died after 10 days. Final diagnosis - pneumonia and meningitis.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 8-Aug-17
+- Birth date: 27-Dec-16
+- Age (months): 7
+- TLC (mm3): 5600
+- Polymorph %: 80
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 1000
+- Volume  sent (ul): 1000
+- Outcome: Died
+- Provisional Diagnosis 1: Hydrocephalus
+- Hospital duration: 10
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 6",Pneumonia/bronchopneumonia
+CHRF_RNA_0084_S84,,2018-03-25 17:51:16 -0700,2077.0,COMPLETE,2,59849024,57728,0.096,49233396,1.0,45.12,6.19,Cerebrospinal fluid,RNA,Bangladesh.,Human,"No Findings. 4 month old. CSF May 2017 70 WBCs, high protein, died after 51 days in hospital.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 5-Apr-17
+- Birth date: 22-Nov-16
+- Age (months): 4
+- TLC (mm3): 70
+- Polymorph %: 60
+- Sugar (mg/dl): 35
+- Protein (mg/dl): 250
+- Volume  sent (ul): 1000
+- Outcome: Died
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 51
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 14",Hydrocephalus
+CHRF_RNA_0085_S85,,2018-03-25 17:51:16 -0700,2537.0,COMPLETE,2,80961046,158908,0.196,49273376,1.0,22.899,2.29,,RNA,,Human,"- Serotype: 12A/F
+- CT value from qPCR: 27.14
+- mNGS result summary (RNA-Seq): Spn has highest of all bacterial reads and z score of 3.0
+- Admission date: 25-Mar-17
+- Birth date: 17-Nov-16
+- Age (months): 4
+- TLC (mm3): 3200
+- Polymorph %: 85
+- Sugar (mg/dl): 40
+- Protein (mg/dl): 500
+- Volume  sent (ul): 370
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 26
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 8",Meningitis
+CHRF_RNA_0086_S86,,2018-03-25 17:51:16 -0700,2075.0,COMPLETE,2,66783636,69142,0.104,15896928,1.0,43.7,1.4,,RNA,,Human,"background
+- Serotype: 38
+- CT value from qPCR: 26.2
+- mNGS result summary (RNA-Seq): Spn has the highest reads (rpm) and z score of 9.9 - the likely pathogen.
+- Admission date: 13-Dec-15
+- Birth date: 15-May-15
+- Age (months): 6
+- TLC (mm3): 550
+- Polymorph %: 90
+- Sugar (mg/dl): 30
+- Protein (mg/dl): 300
+- Volume  sent (ul): 460
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 14
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 16",Meningitis
+CHRF_RNA_0087_S87,,2018-03-25 17:51:16 -0700,2254.0,COMPLETE,2,69829522,30968,0.044,7217626,1.0,28.893,1.29,,RNA,,Human,"background
+- Serotype: 23F
+- CT value from qPCR: 31.67
+- mNGS result summary (RNA-Seq): Spn is not an obvious pathogen here - Spn has a z score of -0.7
+- Admission date: 26-Nov-17
+- Birth date: 12-Jan-11
+- Age (months): 82
+- TLC (mm3): 1600
+- Polymorph %: 90
+- Sugar (mg/dl): 76
+- Protein (mg/dl): 80
+- Volume  sent (ul): 350
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningoencephalitis
+- Hospital duration: 28
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 1
+- Position: 24",Meningitis
+CHRF_RNA_0088_S88,,2018-03-25 17:51:16 -0700,2316.0,COMPLETE,2,85955422,162734,0.189,53048838,1.0,17.739,4.18,,RNA,,Human,"Elizabethkingia, 0 month old, culture positive Elizabethkingia, 750 WBC, discharged after 32 days.
+- mNGS result summary (RNA-Seq): With z score of 99 and highest reads, no doubt that this is Elizabethkingia (anohpeles - need to do some bioinformatic analyses to understand this more) 
+- Admission date: 25-Sep-16
+- Birth date: 15-Sep-16
+- Age (months): 0
+- TLC (mm3): 750
+- Polymorph %: 90
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 500
+- Volume  sent (ul): 500
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 32
+- Drug 1: Inj. Meropenum/ Inj. Ropenam
+- Box : 1
+- Position: 32",Meningitis
+CHRF_RNA_0089_S89,,2018-03-25 17:51:16 -0700,1940.0,COMPLETE,2,6302354,184446,2.927,56770,1.0,78.208,14.99,Cerebrospinal fluid,RNA,,Human,"Escherichia coli. Zero cell count, normal protein and sugar. atypical febrile convulsion.
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): A lot of reads for E. coli here with a score of 285475 and z score of 5.8; there also seems to be shigella reads. 
+- Admission date: 19-Sep-14
+- Birth date: 31-Aug-13
+- Age (months): 12
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 46
+- Protein (mg/dl): 30
+- Volume  sent (ul): 910
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 40",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0090_S90,,2018-03-25 17:51:16 -0700,2157.0,COMPLETE,2,67481750,106452,0.158,62447376,1.0,32.321,4.53,Cerebrospinal fluid,RNA,,Human,"background
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 22-Jan-15
+- Birth date: 27-Dec-13
+- Age (months): 12
+- TLC (mm3): 0
+- Polymorph %: 0
+- Sugar (mg/dl): 54
+- Protein (mg/dl): 15
+- Volume  sent (ul): 440
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 4
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 48",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0091_S91,,2018-03-25 17:51:16 -0700,2231.0,COMPLETE,2,68421536,123050,0.18,62355960,1.0,26.659,4.7,Cerebrospinal fluid,RNA,,Human,"background
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 8-Feb-18
+- Birth date: 19-Aug-16
+- Age (months): 17
+- TLC (mm3): 2
+- Polymorph %: 0
+- Sugar (mg/dl): 60
+- Protein (mg/dl): 20
+- Volume  sent (ul): 1000
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 56",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0092_S92,,2018-03-25 17:51:16 -0700,2157.0,COMPLETE,2,51999596,83734,0.161,46960542,1.0,28.661,3.81,Cerebrospinal fluid,RNA,,Human,"background
+- Notes: Negative / 0 - 6 WBC
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Admission date: 19-Feb-18
+- Birth date: 11-Mar-17
+- Age (months): 11
+- TLC (mm3): 6
+- Polymorph %: 0
+- Sugar (mg/dl): 70
+- Protein (mg/dl): 25
+- Volume  sent (ul): 580
+- Outcome: Discharged
+- Provisional Diagnosis 1: Febrile convulsion/Atypical febrile convulsion
+- Hospital duration: 3
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 1
+- Position: 64",Febrile convulsion/Atypical febrile convulsion
+CHRF_RNA_0093_S93,,2018-03-25 17:51:16 -0700,1935.0,COMPLETE,2,49670048,99216,0.2,43264818,1.0,16.68,4.08,Cerebrospinal fluid,RNA,Bangladesh,Human,"Mystery Case, 13 month old. Feb 2018, 20 WBCs, high-ish protein, child died after 11 days. Heart condition.  Blood culture was positive for Elizabethginka.
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 13-Feb-18
+- Birth date: 28-Dec-16
+- Age (months): 13
+- TLC (mm3): 20
+- Polymorph %: 80
+- Sugar (mg/dl): 15
+- Protein (mg/dl): 80
+- Volume  sent (ul): 720
+- Outcome: Died
+- Provisional Diagnosis 1: Other congenital heart disease ( PDA/ASD)
+- Hospital duration: 11
+- Drug 1: Inj. Ciprofloxacin
+- Box : 1
+- Position: 72",Dextrocardia
+CHRF_RNA_0094_S94,,2018-03-25 17:51:16 -0700,2437.0,COMPLETE,2,61336096,412890,0.673,28094424,1.0,60.914,3.85,Cerebrospinal fluid,RNA,Bangladesh,Human,"Chikungunya . > 115k reads. Low level P falciparum.  Mystery Case - 1000 WBCs, high protein, glucose high. discharged after 10 days. neonate.  Nov 2017. Followed CHKV outbreak. (july 2017).
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Chikungunya virus with z score of 99 and highest reads is the likely pathogen. Follow up on neurodevelopment of the kids. Get the sample back to Dhaka as a positive control for testing more CSF samples for Chick. 
+- Admission date: 19-Nov-17
+- Birth date: 14-Nov-17
+- Age (months): 0
+- TLC (mm3): 1000
+- Polymorph %: 90
+- Sugar (mg/dl): 72
+- Protein (mg/dl): 220
+- Volume  sent (ul): 310
+- Outcome: Discharged
+- Provisional Diagnosis 1: Meningitis
+- Hospital duration: 10
+- Drug 1: Inj. Ceftazidime/ Inj. Tazid
+- Box : 1
+- Position: 80",Meningitis
+CHRF_RNA_0095_S95,,2018-03-25 17:51:16 -0700,2222.0,COMPLETE,2,61324940,84592,0.138,19572240,1.0,40.276,1.99,Cerebrospinal fluid,RNA,Bangladesh,Human,"98 month old, July 2017, 90 WBCs, normal protein, lowish glucose, left against advice after 33 days
+- Notes: All test negative
+- mNGS result summary (RNA-Seq): Unresolved. Nothing appears to be of significance here. 
+- Admission date: 14-Jul-17
+- Birth date: 21-Apr-09
+- Age (months): 98
+- TLC (mm3): 90
+- Polymorph %: 70
+- Sugar (mg/dl): 10
+- Protein (mg/dl): 60
+- Volume  sent (ul): 850
+- Outcome: DORB
+- Provisional Diagnosis 1: Meningoencephalitis
+- Hospital duration: 33
+- Drug 1: Inj. Ceftriaxone/ Inj. Ceftizone/ Inj. Ceftron
+- Box : 2
+- Position: 7",Tubercular meningitis
+CHRF_RNA_0096_S96,,2018-03-25 17:51:16 -0700,2146.0,COMPLETE,2,49342992,69600,0.141,,1.0,31.612,3.63,,RNA,,Human,"background
+- Notes: water - directly from CHRF lab
+- mNGS result summary (RNA-Seq): Nothing appears to be of significance here. 
+- Volume  sent (ul): 750
+- Box : 2
+- Position: 15",

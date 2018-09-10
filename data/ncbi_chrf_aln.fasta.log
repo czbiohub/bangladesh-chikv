@@ -1,0 +1,821 @@
+Physical cores: 2
+Logical cores:  4
+Memory:         15.7GB
+Extensions:     AVX
+
+WARNING: Partition p1: Sequences KT327166_Mexico_2014-07-02 and KJ451624_BritishVirginIslands_2014-01-15 are identical
+WARNING: Partition p1: Sequences KT327166_Mexico_2014-07-02 and KY435486_BritishVirginIslands_2014-01-23 are identical
+WARNING: Partition p1: Sequences KX262994_FrenchGuiana_2014-01-21 and KY435476_TurksandCaicosIslands_2014-06-05 are identical
+WARNING: Partition p1: Sequences MG000876_Haiti_2016-05-17 and MG000875_Haiti_2016-06-27 are identical
+WARNING: Partition p1: Sequences MG000876_Haiti_2016-05-17 and KY704955_Brazil_2016-06-17 are identical
+WARNING: Partition p2: Sequences KX262986_Senegal_1983-07-02 and KX262995_Senegal_1983-07-10 are identical
+WARNING: Partition p2: Sequences KJ689452_Micronesia_2013-11-15 and KJ689453_Micronesia_2013-11-15 are identical
+WARNING: Partition p2: Sequences KU355832_Brazil_2015-07-02 and MF001515_USA_2015-07-02 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435463_Suriname_2014-08-02 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY680377_USA_2014-08-16 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KR046228_TrinidadandTobago_2014-09-11 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY680396_USA_2014-09-02 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KX262991_SaintMartin_2003-07-02 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435483_Anguilla_2014-02-12 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KR559496_Guyana_2014-07-15 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435485_Dominica_2014-01-28 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and LN898094_Guadeloupe_2014-01-15 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435484_Dominica_2014-01-30 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and LN898110_Guadeloupe_2014-01-15 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and LN898100_Martinique_2014-01-15 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KR046234_TrinidadandTobago_2014-09-12 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435462_Jamaica_2014-08-25 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435470_Bahamas_2014-07-08 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435459_CaymanIslands_2014-09-17 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435456_Suriname_2014-08-17 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY415982_Haiti_2014-06-11 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KX702401_Haiti_2014-06-02 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KX262994_FrenchGuiana_2014-01-21 are identical
+WARNING: Partition p2: Sequences KR559486_Panama_2014-11-15 and KY435476_TurksandCaicosIslands_2014-06-05 are identical
+WARNING: Partition p2: Sequences KY435472_Grenada_2014-06-16 and KY435469_Grenada_2014-07-30 are identical
+WARNING: Partition p2: Sequences KY435457_Montserrat_2014-10-30 and KY435467_Montserrat_2014-07-24 are identical
+WARNING: Partition p2: Sequences KY435457_Montserrat_2014-10-30 and KY435468_Jamaica_2014-08-06 are identical
+WARNING: Partition p2: Sequences KT327166_Mexico_2014-07-02 and KJ451624_BritishVirginIslands_2014-01-15 are identical
+WARNING: Partition p2: Sequences KT327166_Mexico_2014-07-02 and KY435486_BritishVirginIslands_2014-01-23 are identical
+WARNING: Partition p2: Sequences KM923918_Malaysia_2007-03-09 and KM923917_Malaysia_2007-03-09 are identical
+WARNING: Partition p2: Sequences HM045790_Philippines_1985-07-17 and HM045800_Philippines_1985-07-02 are identical
+WARNING: Partition p2: Sequences KY751908_Australia_2016-07-02 and KY057363_India_2016-08-28 are identical
+WARNING: Partition p2: Sequences CHRF_RNA_0094_Bangladesh_2017-11-19 and CHRF_RNA_0071_Bangladesh_2017-06-14 are identical
+WARNING: Partition p2: Sequences CHRF_RNA_0094_Bangladesh_2017-11-19 and CHRF_RNA_0012_Bangladesh_2017-06-05 are identical
+WARNING: Partition p2: Sequences KP003807_France_2006-07-02 and FR717336_France_2005-12-26 are identical
+WARNING: Partition p2: Sequences FJ807896_Singapore_2006-07-02 and FJ000065_India_2006-09-15 are identical
+WARNING: Partition p2: Sequences FJ807896_Singapore_2006-07-02 and EU564335_India_2006-10-31 are identical
+WARNING: Partition p2: Sequences GU301780_Thailand_2008-10-21 and FJ445430_Singapore_2008-07-15 are identical
+WARNING: Partition p2: Sequences KP164568_Brazil_2014-08-26 and KP164569_Brazil_2014-08-28 are identical
+WARNING: Partition p2: Sequences KP164568_Brazil_2014-08-26 and MG000876_Haiti_2016-05-17 are identical
+WARNING: Partition p2: Sequences KP164568_Brazil_2014-08-26 and MG000875_Haiti_2016-06-27 are identical
+WARNING: Partition p2: Sequences KP164568_Brazil_2014-08-26 and KY704955_Brazil_2016-06-17 are identical
+Validating binary checkpoint
+OK!
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.5
+
+Input data:
+  MSA:        ncbi_chrf_aln.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            233
+  #sites:           12582
+  #patterns (sum):  2824
+  Max. thread mem:  162 MB
+
+Output:
+  Log:           ncbi_chrf_aln.fasta.log
+  Starting tree: ncbi_chrf_aln.fasta.tree
+  Results:       ncbi_chrf_aln.fasta.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          2/2
+  RNG seed:         12345
+  subtree repeats:  enabled
+Partitions:    partition_modeltest.txt
+               3 partitions
+                  3 DNA partitions
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> modeltest-ng --force -p 2 -q partition_modeltest.txt -i ncbi_chrf_aln.fasta 
+
+
+Partition 1/3
+
+    2/88   GTR+I+G4       0h:00:00   0h:00:01           -5067.5465  1.6899  0.1323
+    3/88   TVM+I+G4       0h:00:00   0h:00:01           -5115.3685  0.9511  0.0672
+    4/88   TIM3+I+G4      0h:00:00   0h:00:01           -5066.8588  1.7768  0.1404
+    5/88   TIM2+I+G4      0h:00:00   0h:00:01           -5069.0924  1.7506  0.1397
+    6/88   TIM1+I+G4      0h:00:00   0h:00:01           -5067.0496  1.7650  0.1403
+    7/88   TPM3uf+I+G4    0h:00:00   0h:00:01           -5116.0984  0.9385  0.0634
+    8/88   TrN+I+G4       0h:00:00   0h:00:01           -5069.6988  1.7454  0.1394
+    9/88   TPM1uf+I+G4    0h:00:00   0h:00:01           -5116.4460  0.9476  0.0671
+   10/88   TPM2uf+I+G4    0h:00:00   0h:00:01           -5119.2336  0.9573  0.0706
+   11/88   SYM+I+G4       0h:00:00   0h:00:01           -5269.6557  1.1199  0.0608
+   12/88   TVMef+I+G4     0h:00:00   0h:00:01           -5300.7406  0.9314  0.1011
+   13/88   HKY+I+G4       0h:00:00   0h:00:01           -5117.0533  0.9576  0.0684
+   14/88   TIM2ef+I+G4    0h:00:00   0h:00:01           -5274.2474  1.2143  0.0825
+   15/88   TIM1ef+I+G4    0h:00:00   0h:00:01           -5281.4765  1.5212  0.1224
+   16/88   TIM3ef+I+G4    0h:00:00   0h:00:01           -5280.1921  1.5140  0.1203
+   17/88   F81+I+G4       0h:00:00   0h:00:01           -5290.4840  1.0904  0.0597
+   18/88   TPM3+I+G4      0h:00:00   0h:00:01           -5315.3456  0.9429  0.0767
+   19/88   TPM2+I+G4      0h:00:00   0h:00:01           -5306.8682  0.9325  0.1019
+   20/88   TPM1+I+G4      0h:00:00   0h:00:01           -5316.4409  0.9350  0.0786
+   21/88   TrNef+I+G4     0h:00:00   0h:00:01           -5285.6729  1.5925  0.1324
+   22/88   K80+I+G4       0h:00:00   0h:00:01           -5318.8751  0.9606  0.0836
+   23/88   JC+I+G4        0h:00:00   0h:00:01           -5459.9205  0.9801  0.0725
+   24/88   GTR+G4         0h:00:00   0h:00:01           -5067.9978  1.0409       -
+   25/88   TVM+G4         0h:00:00   0h:00:01           -5115.3270  0.7874       -
+   26/88   TIM3+G4        0h:00:00   0h:00:01           -5069.1855  1.0334       -
+   27/88   TIM2+G4        0h:00:00   0h:00:01           -5071.4802  1.0284       -
+   28/88   TIM1+G4        0h:00:00   0h:00:01           -5069.4028  1.0265       -
+   29/88   TPM3uf+G4      0h:00:00   0h:00:01           -5116.0601  0.7892       -
+   30/88   TrN+G4         0h:00:00   0h:00:01           -5072.0762  1.0199       -
+   31/88   TPM1uf+G4      0h:00:00   0h:00:01           -5116.4043  0.7874       -
+   32/88   TPM2uf+G4      0h:00:00   0h:00:01           -5119.1832  0.7886       -
+   33/88   SYM+G4         0h:00:00   0h:00:01           -5269.7812  0.9291       -
+   34/88   TVMef+G4       0h:00:00   0h:00:01           -5300.7329  0.7127       -
+   35/88   HKY+G4         0h:00:00   0h:00:01           -5119.2220  0.7855       -
+   36/88   TIM2ef+G4      0h:00:00   0h:00:01           -5276.0073  0.9253       -
+   37/88   TIM1ef+G4      0h:00:00   0h:00:01           -5283.3642  0.9847       -
+   38/88   TIM3ef+G4      0h:00:00   0h:00:01           -5282.0921  0.9890       -
+   39/88   F81+G4         0h:00:00   0h:00:01           -5293.5762  0.9117       -
+   40/88   TPM3+G4        0h:00:00   0h:00:01           -5315.3580  0.7668       -
+   41/88   TPM2+G4        0h:00:00   0h:00:01           -5306.8629  0.7153       -
+   42/88   TPM1+G4        0h:00:00   0h:00:01           -5316.4421  0.7643       -
+   43/88   TrNef+G4       0h:00:00   0h:00:01           -5287.5928  0.9876       -
+   44/88   K80+G4         0h:00:00   0h:00:01           -5320.7524  0.7640       -
+   45/88   JC+G4          0h:00:00   0h:00:01           -5462.4909  0.7929       -
+   46/88   GTR+I          0h:00:00   0h:00:01           -5070.1590       -  0.3161
+   47/88   TVM+I          0h:00:00   0h:00:01           -5124.4978       -  0.3622
+   48/88   TIM3+I         0h:00:00   0h:00:01           -5073.7059       -  0.3153
+   49/88   TIM2+I         0h:00:00   0h:00:01           -5076.0992       -  0.3158
+   50/88   TIM1+I         0h:00:00   0h:00:01           -5073.9478       -  0.3155
+   51/88   TPM3uf+I       0h:00:00   0h:00:01           -5125.3888       -  0.3602
+   52/88   TrN+I          0h:00:00   0h:00:01           -5076.7437       -  0.3153
+   53/88   TPM1uf+I       0h:00:00   0h:00:01           -5125.6918       -  0.3611
+   54/88   TPM2uf+I       0h:00:00   0h:00:01           -5128.3281       -  0.3625
+   55/88   SYM+I          0h:00:00   0h:00:01           -5273.1405       -  0.3479
+   56/88   TVMef+I        0h:00:00   0h:00:01           -5308.9160       -  0.4039
+   57/88   HKY+I          0h:00:00   0h:00:01           -5128.5572       -  0.3615
+   58/88   TIM2ef+I       0h:00:00   0h:00:01           -5281.1252       -  0.3487
+   59/88   TIM1ef+I       0h:00:00   0h:00:01           -5287.9133       -  0.3401
+   60/88   TIM3ef+I       0h:00:00   0h:00:01           -5286.7231       -  0.3390
+   61/88   F81+I          0h:00:00   0h:00:01           -5296.8378       -  0.3635
+   62/88   TPM3+I         0h:00:00   0h:00:01           -5322.3738       -  0.3926
+   63/88   TPM2+I         0h:00:00   0h:00:01           -5314.8940       -  0.4040
+   64/88   TPM1+I         0h:00:00   0h:00:01           -5323.5305       -  0.3931
+   65/88   TrNef+I        0h:00:00   0h:00:01           -5291.9986       -  0.3401
+   66/88   K80+I          0h:00:00   0h:00:01           -5327.6170       -  0.3921
+   67/88   JC+I           0h:00:00   0h:00:01           -5468.0109       -  0.3886
+   68/88   GTR            0h:00:00   0h:00:01           -5103.2285       -       -
+   69/88   TVM            0h:00:00   0h:00:01           -5167.3750       -       -
+   70/88   TIM3           0h:00:00   0h:00:01           -5107.3259       -       -
+   71/88   TIM2           0h:00:00   0h:00:01           -5107.5139       -       -
+   72/88   TIM1           0h:00:00   0h:00:01           -5107.8985       -       -
+   73/88   TPM3uf         0h:00:00   0h:00:01           -5168.6382       -       -
+   74/88   TrN            0h:00:00   0h:00:01           -5111.0099       -       -
+   75/88   TPM1uf         0h:00:00   0h:00:01           -5169.0738       -       -
+   76/88   TPM2uf         0h:00:00   0h:00:01           -5171.5395       -       -
+   77/88   SYM            0h:00:00   0h:00:01           -5308.9389       -       -
+   78/88   TVMef          0h:00:00   0h:00:01           -5358.0883       -       -
+   79/88   HKY            0h:00:00   0h:00:01           -5172.1377       -       -
+   80/88   TIM2ef         0h:00:00   0h:00:01           -5315.2109       -       -
+   81/88   TIM1ef         0h:00:00   0h:00:01           -5319.9756       -       -
+   82/88   TIM3ef         0h:00:00   0h:00:01           -5318.5279       -       -
+   83/88   F81            0h:00:00   0h:00:01           -5333.9882       -       -
+   84/88   TPM3           0h:00:00   0h:00:01           -5367.5569       -       -
+   85/88   TPM2           0h:00:00   0h:00:01           -5364.3543       -       -
+   86/88   TPM1           0h:00:00   0h:00:01           -5369.0076       -       -
+   87/88   TrNef          0h:00:00   0h:00:01           -5324.0495       -       -
+   88/88   K80            0h:00:00   0h:00:01           -5373.0717       -       -
+   89/88   JC             0h:00:00   0h:00:01           -5512.0230       -       -
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:01
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TrN+G4             6     -5072.0762     14571.5229         0.0000    0.6930
+       2  TIM3+G4            7     -5069.1855     14575.1816         3.6587    0.1112
+       3  TIM1+G4            7     -5069.4028     14575.6163         4.0934    0.0895
+       4  TrN+I+G4           7     -5069.6988     14576.2081         4.6852    0.0666
+       5  TIM2+G4            7     -5071.4802     14579.7709         8.2480    0.0112
+       6  TIM3+I+G4          8     -5066.8588     14579.9682         8.4453    0.0102
+       7  TIM1+I+G4          8     -5067.0496     14580.3499         8.8270    0.0084
+       8  TrN+I              6     -5076.7437     14580.8580         9.3351    0.0065
+       9  TIM3+I             7     -5073.7059     14584.2224        12.6995    0.0012
+      10  TIM2+I+G4          8     -5069.0924     14584.4354        12.9125    0.0011
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TrN+G4
+lnL:                -5072.0762
+Frequencies:        0.4781 0.1608 0.1562 0.2050
+Subst. Rates:       1.0000 2.4744 1.0000 1.0000 9.8521 1.0000 
+Inv. sites prop:    -
+Gamma shape:        1.0199
+Score:              14571.5229
+Weight:             0.6930
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0088
+Gamma:              0.9050
+Gamma-Inv:          0.0862
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3153
+Alpha:              1.0223
+Alpha-P.Inv:        1.7510
+P.Inv-Alpha:        0.1396
+Frequencies:        0.4781 0.1614 0.1562 0.2042 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 010020 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model TrN+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m TrN+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TIM3+I+G4          8     -5066.8588     11075.7176         0.0000    0.3517
+       2  TIM1+I+G4          8     -5067.0496     11076.0993         0.3817    0.2906
+       3  TIM3+G4            7     -5069.1855     11078.3710         2.6534    0.0933
+       4  TIM1+G4            7     -5069.4028     11078.8057         3.0881    0.0751
+       5  TrN+I+G4           7     -5069.6988     11079.3976         3.6799    0.0559
+       6  GTR+G4             9     -5067.9978     11079.9956         4.2780    0.0414
+       7  TIM2+I+G4          8     -5069.0924     11080.1849         4.4672    0.0377
+       8  GTR+I+G4          10     -5067.5465     11081.0930         5.3754    0.0239
+       9  TrN+G4             6     -5072.0762     11082.1524         6.4347    0.0141
+      10  TIM2+G4            7     -5071.4802     11082.9603         7.2427    0.0094
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              TIM3+I+G4
+lnL:                -5066.8588
+Frequencies:        0.4789 0.1642 0.1563 0.2007
+Subst. Rates:       0.6462 2.0646 1.0000 0.6462 8.2253 1.0000 
+Inv. sites prop:    0.1404
+Gamma shape:        1.7768
+Score:              11075.7176
+Weight:             0.3517
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0068
+Gamma:              0.2334
+Gamma-Inv:          0.7598
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3159
+Alpha:              1.0315
+Alpha-P.Inv:        1.7659
+P.Inv-Alpha:        0.1400
+Frequencies:        0.4783 0.1631 0.1566 0.2020 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012032 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model TIM3+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m TIM3+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TIM3+I+G4          8     -5066.8588     11111.7176         0.0000    0.3551
+       2  TIM1+I+G4          8     -5067.0496     11112.0993         0.3817    0.2934
+       3  TIM3+G4            7     -5069.1855     11114.3710         2.6534    0.0942
+       4  TIM1+G4            7     -5069.4028     11114.8057         3.0881    0.0758
+       5  TrN+I+G4           7     -5069.6988     11115.3976         3.6799    0.0564
+       6  GTR+G4             9     -5067.9978     11115.9956         4.2780    0.0418
+       7  TIM2+I+G4          8     -5069.0924     11116.1849         4.4672    0.0380
+       8  GTR+I+G4          10     -5067.5465     11118.0930         6.3754    0.0147
+       9  TrN+G4             6     -5072.0762     11118.1524         6.4347    0.0142
+      10  TIM2+G4            7     -5071.4802     11118.9603         7.2427    0.0095
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              TIM3+I+G4
+lnL:                -5066.8588
+Frequencies:        0.4789 0.1642 0.1563 0.2007
+Subst. Rates:       0.6462 2.0646 1.0000 0.6462 8.2253 1.0000 
+Inv. sites prop:    0.1404
+Gamma shape:        1.7768
+Score:              11111.7176
+Weight:             0.3551
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0069
+Gamma:              0.2356
+Gamma-Inv:          0.7576
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3159
+Alpha:              1.0315
+Alpha-P.Inv:        1.7669
+P.Inv-Alpha:        0.1401
+Frequencies:        0.4783 0.1631 0.1565 0.2021 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012032 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model TIM3+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m TIM3+I+G4
+
+Partition 2/3
+
+    2/88   GTR+I+G4       0h:00:00   0h:00:01          -34115.3522  1.2977  0.4938
+    4/88   TIM3+I+G4      0h:00:00   0h:00:01          -34168.7701  1.3215  0.4988
+    5/88   TIM2+I+G4      0h:00:00   0h:00:01          -34148.3125  1.2999  0.4942
+    6/88   TIM1+I+G4      0h:00:00   0h:00:01          -34190.0531  1.3096  0.4975
+    7/88   TPM3uf+I+G4    0h:00:00   0h:00:01          -34381.9642  1.0749  0.5099
+    8/88   TrN+I+G4       0h:00:00   0h:00:01          -34191.8892  1.3077  0.4971
+    9/88   TPM1uf+I+G4    0h:00:00   0h:00:01          -34402.8761  1.0787  0.5096
+   10/88   TPM2uf+I+G4    0h:00:00   0h:00:01          -34366.5950  1.0729  0.5066
+   11/88   SYM+I+G4       0h:00:00   0h:00:01          -34190.4782  1.2782  0.4922
+   12/88   TVMef+I+G4     0h:00:00   0h:00:01          -34361.8601  1.0188  0.4957
+   13/88   HKY+I+G4       0h:00:00   0h:00:01          -34404.6255  0.9975  0.4952
+   14/88   TIM2ef+I+G4    0h:00:00   0h:00:01          -34215.0000  1.2655  0.4907
+   15/88   TIM1ef+I+G4    0h:00:00   0h:00:01          -34267.1541  1.2644  0.4918
+   16/88   TIM3ef+I+G4    0h:00:00   0h:00:01          -34254.6412  1.2717  0.4925
+   17/88   F81+I+G4       0h:00:00   0h:00:01          -36875.5575  1.0409  0.4844
+   18/88   TPM3+I+G4      0h:00:00   0h:00:01          -34424.0656  1.0243  0.4985
+   19/88   TPM2+I+G4      0h:00:00   0h:00:01          -34388.4651  1.0166  0.4952
+   20/88   TPM1+I+G4      0h:00:00   0h:00:01          -34438.8172  1.0226  0.4981
+   21/88   TrNef+I+G4     0h:00:00   0h:00:01          -34269.3208  1.2660  0.4920
+   22/88   K80+I+G4       0h:00:00   0h:00:01          -34440.5379  0.9714  0.4891
+   23/88   JC+I+G4        0h:00:00   0h:00:01          -36899.3445  1.0496  0.4836
+   24/88   GTR+G4         0h:00:00   0h:00:01          -34158.2331  0.2751       -
+   25/88   TVM+G4         0h:00:00   0h:00:01          -34384.4311  0.2433       -
+   26/88   TIM3+G4        0h:00:00   0h:00:01          -34211.4617  0.2709       -
+   27/88   TIM2+G4        0h:00:00   0h:00:01          -34189.9461  0.2736       -
+   28/88   TIM1+G4        0h:00:00   0h:00:01          -34231.7361  0.2719       -
+   29/88   TPM3uf+G4      0h:00:00   0h:00:01          -34432.3726  0.2408       -
+   30/88   TrN+G4         0h:00:00   0h:00:01          -34233.6590  0.2714       -
+   31/88   TPM1uf+G4      0h:00:00   0h:00:01          -34452.7244  0.2413       -
+   32/88   TPM2uf+G4      0h:00:00   0h:00:01          -34415.7360  0.2442       -
+   33/88   SYM+G4         0h:00:00   0h:00:01          -34231.0337  0.2750       -
+   34/88   TVMef+G4       0h:00:00   0h:00:01          -34410.3894  0.2453       -
+   35/88   HKY+G4         0h:00:00   0h:00:01          -34453.8812  0.2428       -
+   36/88   TIM2ef+G4      0h:00:00   0h:00:01          -34255.3257  0.2752       -
+   37/88   TIM1ef+G4      0h:00:00   0h:00:01          -34307.5093  0.2733       -
+   38/88   TIM3ef+G4      0h:00:00   0h:00:01          -34295.3787  0.2727       -
+   39/88   F81+G4         0h:00:00   0h:00:01          -36920.2595  0.2569       -
+   40/88   TPM3+G4        0h:00:00   0h:00:01          -34472.9159  0.2432       -
+   41/88   TPM2+G4        0h:00:00   0h:00:01          -34436.8248  0.2458       -
+   42/88   TPM1+G4        0h:00:00   0h:00:01          -34487.4836  0.2436       -
+   43/88   TrNef+G4       0h:00:00   0h:00:01          -34309.7582  0.2734       -
+   44/88   K80+G4         0h:00:00   0h:00:01          -34489.6014  0.2444       -
+   45/88   JC+G4          0h:00:00   0h:00:01          -36943.4796  0.2590       -
+   46/88   GTR+I          0h:00:00   0h:00:01          -34231.1632       -  0.6106
+   47/88   TVM+I          0h:00:00   0h:00:01          -34464.4433       -  0.6375
+   48/88   TIM3+I         0h:00:00   0h:00:01          -34283.9474       -  0.6158
+   49/88   TIM2+I         0h:00:00   0h:00:01          -34263.5067       -  0.6171
+   50/88   TIM1+I         0h:00:00   0h:00:01          -34306.0856       -  0.6165
+   51/88   TPM3uf+I       0h:00:00   0h:00:01          -34512.8812       -  0.6434
+   52/88   TrN+I          0h:00:00   0h:00:01          -34307.6871       -  0.6163
+   53/88   TPM1uf+I       0h:00:00   0h:00:01          -34533.2426       -  0.6434
+   54/88   TPM2uf+I       0h:00:00   0h:00:01          -34495.7551       -  0.6371
+   55/88   SYM+I          0h:00:00   0h:00:01          -34304.2869       -  0.6132
+   56/88   TVMef+I        0h:00:00   0h:00:01          -34493.9174       -  0.6378
+   57/88   HKY+I          0h:00:00   0h:00:01          -34535.0798       -  0.6424
+   58/88   TIM2ef+I       0h:00:00   0h:00:01          -34329.7052       -  0.6144
+   59/88   TIM1ef+I       0h:00:00   0h:00:01          -34382.6353       -  0.6160
+   60/88   TIM3ef+I       0h:00:00   0h:00:01          -34368.6350       -  0.6164
+   61/88   F81+I          0h:00:00   0h:00:01          -36999.1871       -  0.6410
+   62/88   TPM3+I         0h:00:00   0h:00:01          -34555.5223       -  0.6381
+   63/88   TPM2+I         0h:00:00   0h:00:01          -34520.6420       -  0.6375
+   64/88   TPM1+I         0h:00:00   0h:00:01          -34570.8422       -  0.6380
+   65/88   TrNef+I        0h:00:00   0h:00:01          -34384.4706       -  0.6160
+   66/88   K80+I          0h:00:00   0h:00:01          -34573.0012       -  0.6379
+   67/88   JC+I           0h:00:00   0h:00:01          -37021.9829       -  0.6383
+   68/88   GTR            0h:00:00   0h:00:01          -35299.9047       -       -
+   69/88   TVM            0h:00:00   0h:00:01          -35620.9204       -       -
+   70/88   TIM3           0h:00:00   0h:00:01          -35360.0249       -       -
+   71/88   TIM2           0h:00:00   0h:00:01          -35326.6137       -       -
+   72/88   TIM1           0h:00:00   0h:00:01          -35375.0456       -       -
+   73/88   TPM3uf         0h:00:00   0h:00:01          -35680.6732       -       -
+   74/88   TrN            0h:00:00   0h:00:01          -35376.6326       -       -
+   75/88   TPM1uf         0h:00:00   0h:00:01          -35694.4328       -       -
+   76/88   TPM2uf         0h:00:00   0h:00:01          -35646.5512       -       -
+   77/88   SYM            0h:00:00   0h:00:01          -35362.7628       -       -
+   78/88   TVMef          0h:00:00   0h:00:01          -35652.8761       -       -
+   79/88   HKY            0h:00:00   0h:00:01          -35696.0306       -       -
+   80/88   TIM2ef         0h:00:00   0h:00:01          -35386.0246       -       -
+   81/88   TIM1ef         0h:00:00   0h:00:01          -35441.7656       -       -
+   82/88   TIM3ef         0h:00:00   0h:00:01          -35430.4098       -       -
+   83/88   F81            0h:00:00   0h:00:01          -38119.9540       -       -
+   84/88   TPM3           0h:00:00   0h:00:01          -35720.4566       -       -
+   85/88   TPM2           0h:00:00   0h:00:01          -35676.2464       -       -
+   86/88   TPM1           0h:00:00   0h:00:01          -35731.6639       -       -
+   87/88   TrNef          0h:00:00   0h:00:01          -35443.5389       -       -
+   88/88   K80            0h:00:00   0h:00:01          -35733.4787       -       -
+   89/88   JC             0h:00:00   0h:00:01          -38137.3027       -       -
+    3/88   TVM+I+G4       0h:00:00   0h:00:01          -34334.1803  1.0498  0.5029
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:01
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -34115.3522     72695.8350         0.0000    1.0000
+       2  TIM2+I+G4          8    -34148.3125     72742.8756        47.0406    0.0000
+       3  GTR+G4             9    -34158.2331     72772.1568        76.3218    0.0000
+       4  TIM3+I+G4          8    -34168.7701     72783.7908        87.9557    0.0000
+       5  TIM2+G4            7    -34189.9461     72816.7028       120.8678    0.0000
+       6  SYM+I+G4           7    -34190.4782     72817.7669       121.9319    0.0000
+       7  TrN+I+G4           7    -34191.8892     72820.5889       124.7539    0.0000
+       8  TIM1+I+G4          8    -34190.0531     72826.3567       130.5217    0.0000
+       9  TIM2ef+I+G4        5    -34215.0000     72847.9306       152.0955    0.0000
+      10  TIM3+G4            7    -34211.4617     72859.7339       163.8989    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -34115.3522
+Frequencies:        0.2945 0.2436 0.2585 0.2034
+Subst. Rates:       1.1711 8.3825 1.8331 0.1962 27.4995 1.0000 
+Inv. sites prop:    0.4938
+Gamma shape:        1.2977
+Score:              72695.8350
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6106
+Alpha:              0.2751
+Alpha-P.Inv:        1.2977
+P.Inv-Alpha:        0.4938
+Frequencies:        0.2945 0.2436 0.2585 0.2034 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model GTR+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m GTR+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -34115.3522     69176.7044         0.0000    1.0000
+       2  TIM2+I+G4          8    -34148.3125     69238.6250        61.9206    0.0000
+       3  GTR+G4             9    -34158.2331     69260.4662        83.7618    0.0000
+       4  TIM3+I+G4          8    -34168.7701     69279.5402       102.8358    0.0000
+       5  TIM2+G4            7    -34189.9461     69319.8922       143.1878    0.0000
+       6  SYM+I+G4           7    -34190.4782     69320.9564       144.2520    0.0000
+       7  TIM1+I+G4          8    -34190.0531     69322.1061       145.4017    0.0000
+       8  TrN+I+G4           7    -34191.8892     69323.7783       147.0740    0.0000
+       9  TIM3+G4            7    -34211.4617     69362.9233       186.2189    0.0000
+      10  TIM2ef+I+G4        5    -34215.0000     69366.0000       189.2956    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -34115.3522
+Frequencies:        0.2945 0.2436 0.2585 0.2034
+Subst. Rates:       1.1711 8.3825 1.8331 0.1962 27.4995 1.0000 
+Inv. sites prop:    0.4938
+Gamma shape:        1.2977
+Score:              69176.7044
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6106
+Alpha:              0.2751
+Alpha-P.Inv:        1.2977
+P.Inv-Alpha:        0.4938
+Frequencies:        0.2945 0.2436 0.2585 0.2034 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model GTR+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -34115.3522     69213.7044         0.0000    1.0000
+       2  TIM2+I+G4          8    -34148.3125     69274.6250        60.9206    0.0000
+       3  GTR+G4             9    -34158.2331     69296.4662        82.7618    0.0000
+       4  TIM3+I+G4          8    -34168.7701     69315.5402       101.8358    0.0000
+       5  TIM2+G4            7    -34189.9461     69355.8922       142.1878    0.0000
+       6  SYM+I+G4           7    -34190.4782     69356.9564       143.2520    0.0000
+       7  TIM1+I+G4          8    -34190.0531     69358.1061       144.4017    0.0000
+       8  TrN+I+G4           7    -34191.8892     69359.7783       146.0740    0.0000
+       9  TIM3+G4            7    -34211.4617     69398.9233       185.2189    0.0000
+      10  TIM2ef+I+G4        5    -34215.0000     69402.0000       188.2956    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -34115.3522
+Frequencies:        0.2945 0.2436 0.2585 0.2034
+Subst. Rates:       1.1711 8.3825 1.8331 0.1962 27.4995 1.0000 
+Inv. sites prop:    0.4938
+Gamma shape:        1.2977
+Score:              69213.7044
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6106
+Alpha:              0.2751
+Alpha-P.Inv:        1.2977
+P.Inv-Alpha:        0.4938
+Frequencies:        0.2945 0.2436 0.2585 0.2034 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model GTR+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m GTR+I+G4
+
+Partition 3/3
+
+    2/88   GTR+I+G4       0h:00:00   0h:00:01          -18128.6182  1.0597  0.4519
+    3/88   TVM+I+G4       0h:00:00   0h:00:01          -18186.6236  0.9440  0.4602
+    4/88   TIM3+I+G4      0h:00:00   0h:00:01          -18162.9979  1.0368  0.4491
+    6/88   TIM1+I+G4      0h:00:00   0h:00:01          -18165.1911  1.0189  0.4456
+    5/88   TIM2+I+G4      0h:00:00   0h:00:01          -18136.8246  1.0380  0.4475
+    7/88   TPM3uf+I+G4    0h:00:00   0h:00:01          -18219.3770  0.9391  0.4613
+    8/88   TrN+I+G4       0h:00:00   0h:00:01          -18166.9937  1.0231  0.4462
+    9/88   TPM1uf+I+G4    0h:00:00   0h:00:01          -18221.3156  0.9392  0.4601
+   10/88   TPM2uf+I+G4    0h:00:00   0h:00:01          -18194.3026  0.9343  0.4583
+   11/88   SYM+I+G4       0h:00:00   0h:00:01          -18167.6460  0.9695  0.4348
+   13/88   HKY+I+G4       0h:00:00   0h:00:01          -18223.0556  0.8977  0.4504
+   12/88   TVMef+I+G4     0h:00:00   0h:00:01          -18214.3118  0.9097  0.4504
+   14/88   TIM2ef+I+G4    0h:00:00   0h:00:01          -18172.4690  0.9567  0.4319
+   15/88   TIM1ef+I+G4    0h:00:00   0h:00:01          -18204.9448  0.9597  0.4336
+   16/88   TIM3ef+I+G4    0h:00:00   0h:00:01          -18206.1534  0.9679  0.4344
+   17/88   F81+I+G4       0h:00:00   0h:00:01          -19676.3965  0.9047  0.4244
+   18/88   TPM3+I+G4      0h:00:00   0h:00:01          -18253.4297  0.9142  0.4515
+   19/88   TPM2+I+G4      0h:00:00   0h:00:01          -18219.3012  0.9085  0.4490
+   20/88   TPM1+I+G4      0h:00:00   0h:00:01          -18252.1503  0.9061  0.4502
+   21/88   TrNef+I+G4     0h:00:00   0h:00:01          -18206.9125  0.9635  0.4335
+   22/88   K80+I+G4       0h:00:00   0h:00:01          -18254.3858  0.9044  0.4484
+   23/88   JC+I+G4        0h:00:00   0h:00:01          -19694.7797  0.9220  0.4246
+   24/88   GTR+G4         0h:00:00   0h:00:01          -18149.3882  0.2910       -
+   25/88   TVM+G4         0h:00:00   0h:00:01          -18210.2705  0.2721       -
+   26/88   TIM3+G4        0h:00:00   0h:00:01          -18183.9786  0.2877       -
+   27/88   TIM2+G4        0h:00:00   0h:00:01          -18157.2213  0.2898       -
+   28/88   TIM1+G4        0h:00:00   0h:00:01          -18186.1346  0.2883       -
+   29/88   TPM3uf+G4      0h:00:00   0h:00:01          -18243.5229  0.2710       -
+   30/88   TrN+G4         0h:00:00   0h:00:01          -18187.9480  0.2884       -
+   31/88   TPM1uf+G4      0h:00:00   0h:00:01          -18245.2865  0.2717       -
+   32/88   TPM2uf+G4      0h:00:00   0h:00:01          -18217.8716  0.2739       -
+   34/88   TVMef+G4       0h:00:00   0h:00:01          -18238.1882  0.2750       -
+   33/88   SYM+G4         0h:00:00   0h:00:01          -18187.5342  0.2920       -
+   35/88   HKY+G4         0h:00:00   0h:00:01          -18246.6907  0.2725       -
+   36/88   TIM2ef+G4      0h:00:00   0h:00:01          -18192.1258  0.2950       -
+   37/88   TIM1ef+G4      0h:00:00   0h:00:01          -18224.9955  0.2942       -
+   38/88   TIM3ef+G4      0h:00:00   0h:00:01          -18226.4662  0.2942       -
+   39/88   F81+G4         0h:00:00   0h:00:01          -19696.9411  0.2949       -
+   40/88   TPM3+G4        0h:00:00   0h:00:01          -18277.6533  0.2776       -
+   41/88   TPM2+G4        0h:00:00   0h:00:01          -18243.1625  0.2767       -
+   42/88   TPM1+G4        0h:00:00   0h:00:01          -18276.3397  0.2752       -
+   43/88   TrNef+G4       0h:00:00   0h:00:01          -18227.1702  0.2941       -
+   44/88   K80+G4         0h:00:00   0h:00:01          -18278.6271  0.2763       -
+   45/88   JC+G4          0h:00:00   0h:00:01          -19715.2981  0.3001       -
+   46/88   GTR+I          0h:00:00   0h:00:01          -18201.1525       -  0.6007
+   47/88   TVM+I          0h:00:00   0h:00:01          -18270.2645       -  0.6171
+   48/88   TIM3+I         0h:00:00   0h:00:01          -18236.0457       -  0.5965
+   49/88   TIM2+I         0h:00:00   0h:00:01          -18209.4790       -  0.5963
+   50/88   TIM1+I         0h:00:00   0h:00:01          -18239.0452       -  0.5969
+   51/88   TPM3uf+I       0h:00:00   0h:00:01          -18303.7141       -  0.6173
+   52/88   TrN+I          0h:00:00   0h:00:01          -18240.6861       -  0.5968
+   53/88   TPM1uf+I       0h:00:00   0h:00:01          -18306.2853       -  0.6174
+   54/88   TPM2uf+I       0h:00:00   0h:00:01          -18278.1876       -  0.6148
+   55/88   SYM+I          0h:00:00   0h:00:01          -18243.7955       -  0.6012
+   56/88   TVMef+I        0h:00:00   0h:00:01          -18301.9168       -  0.6140
+   57/88   HKY+I          0h:00:00   0h:00:01          -18307.9036       -  0.6138
+   59/88   TIM1ef+I       0h:00:00   0h:00:01          -18282.0539       -  0.5968
+   60/88   TIM3ef+I       0h:00:00   0h:00:01          -18282.6102       -  0.5968
+   58/88   TIM2ef+I       0h:00:00   0h:00:01          -18248.9302       -  0.5960
+   61/88   F81+I          0h:00:00   0h:00:01          -19756.5503       -  0.6109
+   62/88   TPM3+I         0h:00:00   0h:00:01          -18340.5065       -  0.6147
+   63/88   TPM2+I         0h:00:00   0h:00:01          -18307.1687       -  0.6134
+   64/88   TPM1+I         0h:00:00   0h:00:01          -18340.1016       -  0.6143
+   65/88   TrNef+I        0h:00:00   0h:00:01          -18283.9280       -  0.5968
+   66/88   K80+I          0h:00:00   0h:00:01          -18341.9369       -  0.6144
+   67/88   JC+I           0h:00:00   0h:00:01          -19773.7681       -  0.6130
+   68/88   GTR            0h:00:00   0h:00:01          -18782.5510       -       -
+   69/88   TVM            0h:00:00   0h:00:01          -18874.4943       -       -
+   70/88   TIM3           0h:00:00   0h:00:01          -18817.1222       -       -
+   71/88   TIM2           0h:00:00   0h:00:01          -18786.2446       -       -
+   72/88   TIM1           0h:00:00   0h:00:01          -18817.7453       -       -
+   73/88   TPM3uf         0h:00:00   0h:00:01          -18909.3267       -       -
+   74/88   TrN            0h:00:00   0h:00:01          -18819.0953       -       -
+   75/88   TPM1uf         0h:00:00   0h:00:01          -18909.6591       -       -
+   76/88   TPM2uf         0h:00:00   0h:00:01          -18878.3403       -       -
+   77/88   SYM            0h:00:00   0h:00:01          -18811.9374       -       -
+   78/88   TVMef          0h:00:00   0h:00:01          -18900.8450       -       -
+   79/88   HKY            0h:00:00   0h:00:01          -18910.5550       -       -
+   81/88   TIM1ef         0h:00:00   0h:00:01          -18848.3831       -       -
+   80/88   TIM2ef         0h:00:00   0h:00:01          -18814.5987       -       -
+   82/88   TIM3ef         0h:00:00   0h:00:01          -18849.3425       -       -
+   84/88   TPM3           0h:00:00   0h:00:01          -18938.5330       -       -
+   85/88   TPM2           0h:00:00   0h:00:01          -18903.5082       -       -
+   83/88   F81            0h:00:00   0h:00:01          -20331.0938       -       -
+   86/88   TPM1           0h:00:00   0h:00:01          -18937.5293       -       -
+   88/88   K80            0h:00:00   0h:00:01          -18939.0164       -       -
+   89/88   JC             0h:00:00   0h:00:01          -20343.2631       -       -
+   87/88   TrNef          0h:00:00   0h:00:01          -18849.8613       -       -
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:01
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TIM2+I+G4          8    -18136.8246     40719.8998         0.0000    0.7744
+       2  GTR+I+G4          10    -18128.6182     40722.3670         2.4672    0.2256
+       3  TIM2+G4            7    -18157.2213     40751.2532        31.3535    0.0000
+       4  GTR+G4             9    -18149.3882     40754.4671        34.5673    0.0000
+       5  TIM2ef+I+G4        5    -18172.4690     40762.8685        42.9687    0.0000
+       6  TrN+I+G4           7    -18166.9937     40770.7979        50.8981    0.0000
+       7  SYM+I+G4           7    -18167.6460     40772.1025        52.2027    0.0000
+       8  TIM3+I+G4          8    -18162.9979     40772.2464        52.3467    0.0000
+       9  TIM1+I+G4          8    -18165.1911     40776.6328        56.7330    0.0000
+      10  TIM2ef+G4          4    -18192.1258     40792.7421        72.8423    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TIM2+I+G4
+lnL:                -18136.8246
+Frequencies:        0.2761 0.2672 0.2548 0.2019
+Subst. Rates:       3.4744 26.2562 3.4744 1.0000 59.9398 1.0000 
+Inv. sites prop:    0.4475
+Gamma shape:        1.0380
+Score:              40719.8998
+Weight:             0.7744
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.5974
+Alpha:              0.2900
+Alpha-P.Inv:        1.0429
+P.Inv-Alpha:        0.4485
+Frequencies:        0.2762 0.2678 0.2549 0.2011 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 010232 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model TIM2+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m TIM2+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -18128.6182     37203.2363         0.0000    0.9980
+       2  TIM2+I+G4          8    -18136.8246     37215.6492        12.4128    0.0020
+       3  GTR+G4             9    -18149.3882     37242.7764        39.5401    0.0000
+       4  TIM2+G4            7    -18157.2213     37254.4427        51.2063    0.0000
+       5  TIM3+I+G4          8    -18162.9979     37267.9958        64.7595    0.0000
+       6  TIM1+I+G4          8    -18165.1911     37272.3822        69.1458    0.0000
+       7  TrN+I+G4           7    -18166.9937     37273.9874        70.7510    0.0000
+       8  SYM+I+G4           7    -18167.6460     37275.2919        72.0556    0.0000
+       9  TIM2ef+I+G4        5    -18172.4690     37280.9380        77.7016    0.0000
+      10  TIM3+G4            7    -18183.9786     37307.9572       104.7209    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -18128.6182
+Frequencies:        0.2765 0.2697 0.2552 0.1985
+Subst. Rates:       1.7088 14.1988 2.1485 0.2387 33.0365 1.0000 
+Inv. sites prop:    0.4519
+Gamma shape:        1.0597
+Score:              37203.2363
+Weight:             0.9980
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6007
+Alpha:              0.2910
+Alpha-P.Inv:        1.0597
+P.Inv-Alpha:        0.4518
+Frequencies:        0.2765 0.2697 0.2552 0.1985 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model GTR+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -18128.6182     37240.2363         0.0000    0.9967
+       2  TIM2+I+G4          8    -18136.8246     37251.6492        11.4128    0.0033
+       3  GTR+G4             9    -18149.3882     37278.7764        38.5401    0.0000
+       4  TIM2+G4            7    -18157.2213     37290.4427        50.2063    0.0000
+       5  TIM3+I+G4          8    -18162.9979     37303.9958        63.7595    0.0000
+       6  TIM1+I+G4          8    -18165.1911     37308.3822        68.1458    0.0000
+       7  TrN+I+G4           7    -18166.9937     37309.9874        69.7510    0.0000
+       8  SYM+I+G4           7    -18167.6460     37311.2919        71.0556    0.0000
+       9  TIM2ef+I+G4        5    -18172.4690     37316.9380        76.7016    0.0000
+      10  TIM3+G4            7    -18183.9786     37343.9572       103.7209    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -18128.6182
+Frequencies:        0.2765 0.2697 0.2552 0.1985
+Subst. Rates:       1.7088 14.1988 2.1485 0.2387 33.0365 1.0000 
+Inv. sites prop:    0.4519
+Gamma shape:        1.0597
+Score:              37240.2363
+Weight:             0.9967
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6007
+Alpha:              0.2910
+Alpha-P.Inv:        1.0596
+P.Inv-Alpha:        0.4518
+Frequencies:        0.2765 0.2697 0.2552 0.1985 
+
+Commands:
+  > phyml  -i ncbi_chrf_aln.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ncbi_chrf_aln.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ncbi_chrf_aln.fasta --model GTR+I+G4
+  > paup -s ncbi_chrf_aln.fasta
+  > iqtree -s ncbi_chrf_aln.fasta -m GTR+I+G4
+Summary:
+
+Partition 1/3:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC              TrN+G4    14571.5229        0.6930
+       AIC           TIM3+I+G4    11075.7176        0.3517
+      AICc           TIM3+I+G4    11111.7176        0.3551
+
+Partition 2/3:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            GTR+I+G4    72695.8350        1.0000
+       AIC            GTR+I+G4    69176.7044        1.0000
+      AICc            GTR+I+G4    69213.7044        1.0000
+
+Partition 3/3:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC           TIM2+I+G4    40719.8998        0.7744
+       AIC            GTR+I+G4    37203.2363        0.9980
+      AICc            GTR+I+G4    37240.2363        0.9967
+
+Result partition files written to ncbi_chrf_aln.fasta.part.*
+Execution results written to ncbi_chrf_aln.fasta.out
+Starting tree written to ncbi_chrf_aln.fasta.tree
