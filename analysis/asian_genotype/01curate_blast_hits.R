@@ -2,6 +2,7 @@ library(seqinr)
 library(dplyr)
 library(reutils)
 library(parallel)
+library(magrittr)
 
 output.env <- new.env()
 
@@ -86,7 +87,13 @@ write.fasta(genbank_sequences, names(genbank_sequences),
 
 writeLines(gsub(" ", "", names(genbank_sequences)), "../../data/list_of_blast_hit_names.txt")
 
-save(list=names(output.env), envir=output.env, file="curate_blast_hits.RData")
+
+
+output.env$chrf_seq <- chrf_seq <- read.fasta("../../data/Final-CHIKV-sequences.fasta")
+
+write.fasta(chrf_seq, 
+            strsplit(names(chrf_seq), "_") %>% sapply(., function (x) paste0(x[1], x[2], "_Bangladesh_", as.Date(x[3], "%m-%d-%Y"))),
+            "../../data/chrf_samples_cleaned.fasta")
 
 fn <- c("../../data/blast_filtered_sampled.fasta", "../../data/chrf_samples_cleaned.fasta", "../../data/inseq.fasta",
         "cut_alignment.R")
@@ -94,6 +101,7 @@ system(paste("cat", fn[1], fn[2], ">", fn[3]))
 paste("~/anaconda3/bin/aws s3 cp", fn, "s3://lucymli/bangladesh_chikv/") %>%
   sapply(., system)
 
+save(list=names(output.env), envir=output.env, file="curate_blast_hits.RData")
 
 #muscle -in inseq.fasta -out ncbi_chrf_aln.fasta
 # lapply(list.files("../../data", ".fasta$", full.names = TRUE), function (x) {
