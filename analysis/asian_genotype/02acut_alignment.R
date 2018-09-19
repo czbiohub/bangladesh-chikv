@@ -1,8 +1,9 @@
 library(seqinr, lib.loc="/mnt/data/")
 fastafile <- "/mnt/data/data/ncbi_chrf_aln.fasta"
 aln <- as.matrix(read.alignment(fastafile, format="fasta"))
-seqchar <- as.character(aln[1, ])
-firstname <- strsplit(rownames(aln), "_")[[1]][1]
+firstnames <- sapply(strsplit(rownames(aln), "_"), `[`, 1)
+firstname <- grep("CHRF", firstnames, invert=TRUE, value=TRUE)[1]
+seqchar <- as.character(aln[rownames(aln)==firstname, ])
 tmp <- tempfile()
 system(paste0('curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=', firstname, '&rettype=gb&retmode=text" > ', tmp))
 tmplines <- readLines(tmp)
