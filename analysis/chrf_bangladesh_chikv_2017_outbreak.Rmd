@@ -1,0 +1,156 @@
+---
+title: "Phylogenetic analysis of CHRF chikungunya virus samples from 2017"
+author: "Lucy M. Li"
+date: "Nov 26, 2018"
+output: 
+  html_document:
+    number_sections: true
+    fig_caption: yes
+    toc: true
+---
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Summary of methods
+
+We excluded CHRF0098 and CHRF0100 from downstream analysis as they had 49.5% and 57.0% missing nucleotides in their respective assemblies. We used the BLASTn program to extract 232 complete genomes of chikungunya virus that had > 85% similarity to one of the remaining 18 genomes. We aligned the 232 NCBI genomes and the 18 CHRF genomes using MUSCLE v3.8.1551 with default settings. We used the annotation from one of the NCBI genomes (accession number: HM045823) to divide the genome into gp1, gp2, and non-coding regions, and then used ModelTest-NG v0.1.5 to select the best-fitting evolutionary models for each genomic region. We found that the Generalised Time Reversible (GTR) model with gamma-distributed rate heterogeneity and invariant sites was the best-fitting model for the coding regions, and Tamura-Nei (TrN) model with gamma-distributed rate heterogeneity for the non-coding region. Using the best-fitting models for evolution for each genomic region, we reconstructed a maximum-likelihood phylogeny using RAxML-ng v0.6.0 using default settings. The maximum likelihood phylogeny was used to select a lineage of 79 closely related NCBI sequences to the 18 CHRF genomes. We then created a time-resolved phylogeny for this lineage in BEAST v1.10.1 using separate substitution models for each genomic region as selected using ModelTest-NG, a strict molecular clock for all genomic sites, and we selected the Bayesian skyline model as the tree prior. Two separate BEAST runs of 300 million MCMC iterations sampling every 50,000 iterations were used to explore the posterior distribution of phylogenies and evolutionary parameters. Convergence was checked visually checked after removing the first 50% of samples, and samples from the two chains were merged. A maximum clade credibility phylogeny was created using median node heights.
+
+
+# Required programs
+
+
+```{r libraries, warning=FALSE, message=FALSE}
+required_libraries <- c("seqinr", "ape", "magrittr", "dplyr", "lubridate", "ggplot2", "ggtree", "countrycode", "parallel", "knitr")
+missing_libraries <- required_libraries[!(required_libraries %in% installed.packages())]
+if (length(missing_libraries) > 0) sapply(missing_libraries, install.packages)
+invisible(lapply(required_libraries, library, character.only=TRUE))
+```
+
+In addition to the above libraries, make sure the following programs are installed. The following scripts install the programs that do not already exist on the system. `bash for x in `ls scripts/*.sh`; do chmod +x $x; done # this ensures all the scripts can be run on the commandline`
+
+
+<!-- The commands of this script should be executed on an AWS EC2 instance, which can be launched using: -->
+
+<!-- ```{bash} -->
+<!-- aegea launch --iam-role S3fromEC2 --ami-tags Name=czbiohub-specops-2018-07-31 -t t3.2xlarge chikv -->
+<!-- aegea ssh ubuntu@chikv -->
+<!-- cd /mnt/data/ -->
+<!-- ``` -->
+
+
+1. **MUSCLE v3.8.1551**: MUSCLE is a multi-sequence alignment program; this will be used to align the CHRF genomes to their closest NCBI matches
+
+```{bash install_muscle}
+scripts/./install_muscle.sh
+```
+
+2. **ModelTest-NG v0.1.5**: ModelTest-ng is a model selection program that determines the best-fitting molecular evolution model that explains the genomic data.
+
+```{bash install_modeltest}
+scripts/./install_modeltest.sh
+```
+
+3. **RAxML-ng v0.6.0**: RAxML is a maximum likelihood phylogeny reconstruction program; this will be used to infer the most likely tree given the genomic data and a specific molecular evolution model.
+
+```{bash install_raxml}
+scripts/./install_raxml.sh
+```
+
+
+# Load and clean raw data (assembled CHIKV genomes)
+
+```{r variables}
+raw_seq_file <- "Final-CHIKV-sequences.fasta" # Change this variable if your file is named differently
+data_dir <- "../data"
+raw_data_dir <- paste0(data_dir, "/raw")
+clean_data_dir <- paste0(data_dir, "/clean")
+aln_dir <- paste0(data_dir, "/alignment")
+modeltest_dir <- paste0(data_dir, "/modeltest")
+raxml_dir <- paste0(data_dir, "/raxml")
+beast_dir <- paste0(data_dir, "/beast")
+```
+
+Between May and November, a total of 20 isolates collected by CHRF tested positive for Chikungunya virus. A viral genome was assembled for each of the 20 isolates. As the short reads came from metagenomic samples, some assemblies were incomplete due to low coverage across parts of the genome.
+
+Read in the 20 CHRF assembled genomes:
+
+```{r read_in_chrf_seq}
+chrf_seq <- paste0(raw_data_dir, "/Final-CHIKV-sequences.fasta") %>% read.fasta()
+```
+
+Run the following script in R to reformat the names to CHRFXXXX_Bangladesh_2017-mm-dd:
+
+```{r change-chrf-seq-names}
+source("scripts/clean_chrf_sequences.R")
+chrf_seq <- clean_chrf_sequences(chrf_seq)
+write.fasta(chrf_seq, names(chrf_seq), paste0(clean_data_dir, "/chrf_samples_cleaned.fasta"))
+```
+
+A summary of the assembled genomes are given below:
+
+```{r assembly_summary, results='asis'}
+chrf_assembly_summary <- 
+  data.frame(sample_names = names(chrf_seq) %>% strsplit("_") %>% sapply(`[`, 1),
+             date=names(chrf_seq) %>% strsplit("_") %>% sapply(tail, 1) %>% as.Date(),
+             assembly_len = sapply(chrf_seq, length),
+             num_of_N = lapply(chrf_seq, `==`, 'n') %>% sapply(sum),
+             stringsAsFactors = FALSE) %>%
+  mutate(perc_of_N = scales::percent(num_of_N / assembly_len))
+chrf_assembly_summary_colnames <- c("Sample names", "Date of collection", "Assembly length", "# ambiguous bases (N)", "% N")
+knitr::kable(chrf_assembly_summary, col.names=chrf_assembly_summary_colnames, format.args=list(big.mark=","))
+```
+
+Because samples `r paste(filter(chrf_assembly_summary, round(num_of_N/assembly_len, 2)>=0.33)$sample_names, collapse=" and ")` had ambiguous bases at over 1/3 of the genome, we excluded these two samples from downstream analysis.
+
+# Comparison to other CHIKV genomes from NCBI
+
+We used BLASTN to search for the 200 closest sequences on NCBI to each 3 of the assembled genomes: CHRF. The output of the blast search is in the 'data/blast-hit-table.csv' file. The following script downloads the BLAST sequences, cleans their metadata, and generates a file 'blast_filtered_sampled.fasta' that will be used for multi-sequence alignment.
+
+```{r curate_blast_hits, cache=TRUE}
+source('scripts/curate_blast_hits.R')
+```
+
+# Phylogeny building
+
+The next few steps might take a while so it would be better to carry them out on an AWS EC2 instance.
+
+## Multi-sequence alignment
+
+```{bash muscle, eval=FALSE}
+muscle -in ../data/alignment/inseq.fasta -out ../data/alignment/ncbi_chrf_aln.fasta
+```
+
+## ModelTest
+
+This step splits the multi-sequence alignment into gp1, gp2, and intergenic regions. 
+
+```{r}
+source("scripts/cut_alignment.R")
+```
+
+
+
+```{bash, eval=FALSE}
+modeltest-ng --force -p 2 -q ../data/modeltest/partition_modeltest.txt -i ../data/alignment/ncbi_chrf_aln.fasta
+```
+
+```{bash, eval=FALSE}
+mv ../data/alignment/ncbi_chrf_aln.fasta.part.aicc ../data/raxml/partition_raxml.txt
+mv ../data/alignment/ncbi_chrf_aln.fasta.part.bic ../data/beast/partition_beast.txt
+```
+
+
+
+
+## Maximum likelihood phylogenetic reconstruction using RAxML
+
+```{bash raxml, eval=FALSE}
+# --redo forces RAxML to overwrite previous results
+raxml-ng --redo --all --msa ../data/alignment/ncbi_chrf_aln.fasta --model ../data/raxml/partition_raxml.txt --bs-trees 200 --prefix ../data/raxml/mltree
+```
+
+
+
+
