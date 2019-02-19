@@ -7,6 +7,8 @@ library(countrycode)
 library(dplyr)
 library(seqinr)
 library(coda)
+library(grid)
+library(gridExtra)
 dataenv <- new.env()
 load("../parse_raxml_output.RData", envir=dataenv)
 
@@ -97,60 +99,97 @@ output$clockrate_table <- clockrate_table <-
 output$beast_tree <- beast_tree <- 
   ggtree::read.beast("../../beast/ncbi_chrf_aln_south_asian_subset_partitioned_StrictClock_Skyline.mcc.tree")
 
-output$beast_tree_df <-
-  beast_tree_df <-
-  dataenv$mltree_southasian_df %>%
-  mutate(seq=gsub("UnitedStatesOfAmerica", "USA", .$seq)%>%gsub("MF773567_Indonesia", "MF773567_Borneo", .))
-
-beast_tree_plot <-
-  ggtree(beast_tree, right=TRUE, mrsd=as.character(max(dataenv$mltree_southasian_df$date))) +
-  theme_tree2()
-beast_tree_plot <- beast_tree_plot +
-  xlim(min(beast_tree_plot$data$x)-3, 2045) +
-  geom_nodepoint(aes(alpha=posterior))
-beast_tree_plot <- beast_tree_plot %<+% beast_tree_df +
-  geom_tiplab(aes(color=chrf), align=TRUE)
-output$gheatmap_df <- gheatmap_df <-
-  data.frame(Continent=beast_tree_df[, "continent"], row.names=beast_tree_df$seq)
-beast_tree_plot %<>%
-  gheatmap(gheatmap_df, 
-           offset=10, width=0.1, colnames=FALSE) %>%
-  scale_x_ggtree(breaks=seq(2005, 2017, by=2))
 output$root_dates <- root_dates <-
-  slice(beast_tree_plot$data, which.max(height_median)) %>%
+  slice(beast_tree@data, which.max(height_median)) %>%
   with(c(height_median, height_median-c(height-height_0.95_HPD[[1]]))) %>%
   `*`(365) %>%
   `-`(max(beast_tree_plot$data$date, na.rm=TRUE), .) %>%
   format("%b %Y")
-output$root_coords <- root_coords <- slice(beast_tree_plot$data, which.min(x))
-beast_tree_plot <- beast_tree_plot + 
-  annotate(geom="text", x=root_coords$x-1.5, y=root_coords$y,
-           label=paste0(root_dates[1], "\n(", root_dates[3], " - ", root_dates[2], ")"), size=2.5)
+
+output$root_coords <- root_coords <- slice(beast_tree@data, which.min(x))
 output$bangladesh_root_df <- bangladesh_root_df <-
-  filter(beast_tree_plot$data, grepl("Bangladesh_2017", label)) %>%
+  filter(beast_tree@data, grepl("Bangladesh_2017", label)) %>%
   select("parent") %>%
   unlist() %>%
-  slice(beast_tree_plot$data, .) %>%
+  slice(beast_tree@data, .) %>%
   slice(which.max(height_median))
 output$bangladesh_root_dates <- bangladesh_root_dates <-
   bangladesh_root_df %>%
   with(c(height_median, height_median-c(height-height_0.95_HPD[[1]]))) %>%
   `*`(365) %>%
-  `-`(max(beast_tree_plot$data$date, na.rm=TRUE), .) %>%
+  `-`(max(beast_tree@data$date, na.rm=TRUE), .) %>%
   format("%b %Y")
-beast_tree_plot <- beast_tree_plot + 
-  annotate(geom="text", x=bangladesh_root_df$x-1.5, y=bangladesh_root_df$y,
-           label=paste0(bangladesh_root_dates[1], "\n(", bangladesh_root_dates[3], " - ", bangladesh_root_dates[2], ")"), size=2.5)
-beast_tree_plot <-
-  beast_tree_plot + 
-  theme(legend.title=element_text(size=12)) +
-  scale_color_manual("CHRF", values=c("gray50", "orangered1"), labels=c("Others", "CHRF isolates")) +
-  scale_fill_discrete("Continent") +
-  scale_alpha_continuous("Probability of \nNode")
-output$beast_tree_plot <- beast_tree_plot
 
-ggsave("../../figures/beast_tree_plot.pdf", beast_tree_plot,
-       width=12, height=20)
+region_colours <- c("America"="darkorchid4", 
+                    "Africa"="khaki3",
+                    "Europe"="deepskyblue2",
+                    "Western Pacific"="orange", 
+                    "South-East Asia"="springgreen3",
+                    "Bangladesh"="red3")
+output$beast_tree_df <-
+  beast_tree_df <-
+  dataenv$mltree_southasian_df %>%
+  mutate(seq=gsub("UnitedStatesOfAmerica", "USA", .$seq)%>%gsub("MF773567_Indonesia", "MF773567_Borneo", .)) %>%
+  rename(Region=continent, id=seq) %>%
+  mutate(acc=strsplit(id, "_")%>%sapply(head, 1)) %>%
+  mutate(countries=gsub("United States Of America", "USA", countries) %>%
+           gsub("Papua New Guinea", "Papua N G", .)) %>%
+  mutate(Region=apply(., 1, function (x) ifelse(x["countries"]=="Bangladesh", "Bangladesh", x["Region"]))) %>%
+  mutate(Region=gsub("Americas", "America", Region)) %>%
+  mutate(Region=gsub("Oceania", "Western Pacific", Region)) %>%
+  mutate(Region=gsub("Asia", "South-East Asia", Region)) %>%
+  mutate(Region=factor(Region, levels=names(region_colours)))
+output$gheatmap_df <- gheatmap_df <-
+  data.frame(Region=factor(beast_tree_df[, "Region"], levels=names(region_colours)),
+             row.names=beast_tree_df$id)
+
+
+# Tree plotting -----------------------------------------------------------
+
+beast_tree_plot_base <-
+  ggtree(beast_tree, right=TRUE, mrsd=as.character(max(dataenv$mltree_southasian_df$date))) +
+  theme_tree2() +
+  geom_tiplab(aes(label=""), align=TRUE)
+beast_tree_plot_base %<>%
+  gheatmap(gheatmap_df, width=0.06, colnames=FALSE) %>%
+  scale_x_ggtree(breaks=seq(2005, 2017, by=2), labels=c(2005, "", 2009, "", 2013, "", 2017))
+beast_tree_plot <- beast_tree_plot_base + 
+  geom_nodepoint(aes(color=posterior), size=6, shape="bullet", alpha=.75)
+beast_tree_plot <- beast_tree_plot +
+  annotate(geom="text", x=c(root_coords$x-1.5, bangladesh_root_df$x-1.5),
+           y=c(root_coords$y, bangladesh_root_df$y),
+           label=c(paste0(root_dates[1], "\n(", root_dates[3], "\n-\n", root_dates[2], ")"),
+                   paste0(bangladesh_root_dates[1], "\n(", bangladesh_root_dates[3], "\n-\n", bangladesh_root_dates[2], ")")), 
+           size=4.5, lineheight=0.75)
+beast_tree_plot <-
+  beast_tree_plot +
+  coord_cartesian(xlim=c(2002, 2018.8)) +
+  scale_fill_manual(name="Region", values=region_colours, breaks=names(region_colours)) +
+  scale_color_continuous(name="Probability of\nNode", low="grey99", high="grey20", breaks=seq(0, 1, by=0.25)) +
+  theme(axis.text.x=element_text(size=14),
+        axis.ticks.length=unit(5, "pt"),
+        legend.text=element_text(size=14),
+        legend.title=element_text(size=14, hjust=0),
+        legend.position=c(0.2, 0.15),
+        plot.margin=unit(rep(0.1, 4), units="lines"))
+
+get_tree_tiplabs <- function (x, xlim_min, xlim_max) {
+  x <- enquo(x)
+  beast_tree_plot_base %<+% beast_tree_df +
+    geom_tiplab(aes(label=!!x, color=chrf), align=TRUE, offset=1.9) +
+    scale_color_manual("CHRF", values=c("gray50", "orangered1"), labels=c("Others", "CHRF isolates")) +
+    theme(legend.position="none", plot.margin=unit(c(0.1, 0, 1.45, 0), units="lines")) +
+    coord_cartesian(xlim=c(xlim_min, xlim_max))
+}
+beast_tree_plot_names <- arrangeGrob(get_tree_tiplabs(acc, 2020.19, 2025.05),
+                                     get_tree_tiplabs(year, 2019.95, 2021.5),
+                                     get_tree_tiplabs(countries, 2020.29, 2029),
+                                     nrow=1, widths=c(1.6, 1, 2))
+output$beast_tree_plot <- output_beast_tree_plot <- 
+  arrangeGrob(beast_tree_plot, beast_tree_plot_names, nrow=1, widths=c(2.5, 1),
+              padding=unit(0, "line"))
+ggsave("../../figures/beast_tree_plot.pdf", output_beast_tree_plot,
+       width=10, height=16)
 
 
 # circular plot -----------------------------------------------------------
@@ -175,7 +214,7 @@ beast_tree_radial_plot <-
   theme(legend.title=element_text(size=12), 
         panel.grid.major.x=element_line(color="grey20", linetype="dotted", size=.3)) +
   scale_color_manual("CHRF", values=c("gray50", "orangered1"), labels=c("Others", "CHRF isolates")) +
-  scale_fill_discrete("Continent") +
+  scale_fill_discrete("Region") +
   scale_alpha_continuous("Probability of \nNode")
 output$beast_tree_radial_plot <- beast_tree_radial_plot
 
